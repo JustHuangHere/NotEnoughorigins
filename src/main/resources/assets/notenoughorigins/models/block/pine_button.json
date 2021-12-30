@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "notenoughorigins:block/pine_planks"
+  }
+}

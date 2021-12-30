@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "notenoughorigins",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "NotEnoughOrigins",
+  "description": "Origins addon that adds more origins into the original mod and adds some custom items",
   "authors": [
-    "Me!"
+    "JustHuangHere"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/JustHuangHere/NotEnoughorigins"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/neo/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.justhuanghere.neo.Neo"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "neo.mixins.json"
   ],
 
   "depends": {

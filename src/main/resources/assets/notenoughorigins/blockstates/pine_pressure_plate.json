@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "notenoughorigins:block/pine_pressure_plate"
+    },
+    "powered=true": {
+      "model": "notenoughorigins:block/pine_pressure_plate_down"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "notenoughorigins:iridium"
+    }
+  },
+  "result": {
+    "item": "notenoughorigins:block_of_iridium",
+    "count": 1
+  }
+}
+

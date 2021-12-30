@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_top",
+  "textures": {
+    "texture": "notenoughorigins:block/pine_trapdoor"
+  }
+}

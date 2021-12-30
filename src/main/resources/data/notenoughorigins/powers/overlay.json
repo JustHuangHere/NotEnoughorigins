@@ -1,0 +1,12 @@
+{
+  "type": "origins:overlay",
+  "texture": "notenoughorigins:textures/misc/box_overlay.png",
+  "strength": 1.0,
+  "red": 1.0,
+  "green": 1.0,
+  "blue": 1.0,
+  "draw_mode": "texture",
+  "draw_phase": "below_hud",
+  "hide_with_hud": false,
+  "visible_in_third_person": false
+}

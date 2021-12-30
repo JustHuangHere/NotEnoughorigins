@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "notenoughorigins:pine_log"
+    }
+  },
+  "result": {
+    "item": "notenoughorigins:pine_wood",
+    "count": 3
+  }
+}
+

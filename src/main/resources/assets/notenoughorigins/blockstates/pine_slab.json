@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "notenoughorigins:block/pine_slab"
+    },
+    "type=double": {
+      "model": "notenoughorigins:block/pine_planks"
+    },
+    "type=top": {
+      "model": "notenoughorigins:block/pine_slab_top"
+    }
+  }
+}

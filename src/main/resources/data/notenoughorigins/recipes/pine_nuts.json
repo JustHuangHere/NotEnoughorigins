@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "notenoughorigins:pine_cone"
+    }
+  ],
+  "result": {
+    "item": "notenoughorigins:pine_nuts",
+    "count": 9
+  }
+}

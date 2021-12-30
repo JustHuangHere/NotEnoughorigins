@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#$#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bone"
+    },
+    "$": {
+      "item": "minecraft:skeleton_skull"
+    }
+  },
+  "result": {
+    "item": "notenoughorigins:cubone_skull",
+    "count": 1
+  }
+}
+

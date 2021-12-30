@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "notenoughorigins:block_of_iridium"
+    }
+  ],
+  "result": {
+    "item": "notenoughorigins:iridium",
+    "count": 9
+  }
+}
