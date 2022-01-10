@@ -2,7 +2,6 @@ package com.justhuanghere.neo.registry;
 
 import com.justhuanghere.neo.Neo;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.FoodComponent;
@@ -12,7 +11,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 
-public class ModItems {
+public class NeoItems {
 
     public static final Item DINO_NUGGETS = new Item(new FabricItemSettings().maxCount(64).group(ItemGroup.FOOD)
             .food(new FoodComponent.Builder().alwaysEdible().meat().hunger(3).saturationModifier(3.6f).build()));
@@ -24,37 +23,37 @@ public class ModItems {
     public static final Item PINE_NUTS = new Item(new FabricItemSettings().maxCount(64).group(ItemGroup.FOOD)
             .food(new FoodComponent.Builder().alwaysEdible().hunger(1).saturationModifier(0.5f).snack().build()));
 
-    public static final BlockItem PINE_LOG = new BlockItem(ModBlocks.PINE_LOG, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final BlockItem PINE_LOG = new BlockItem(NeoBlocks.PINE_LOG, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
 
-    public static final BlockItem PINE_WOOD = new BlockItem(ModBlocks.PINE_WOOD, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final BlockItem PINE_WOOD = new BlockItem(NeoBlocks.PINE_WOOD, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
 
-    public static final BlockItem PINE_PLANKS = new BlockItem(ModBlocks.PINE_PLANKS, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final BlockItem PINE_PLANKS = new BlockItem(NeoBlocks.PINE_PLANKS, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
 
-    public static final BlockItem STRIPPED_PINE_LOG = new BlockItem(ModBlocks.STRIPPED_PINE_LOG, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final BlockItem STRIPPED_PINE_LOG = new BlockItem(NeoBlocks.STRIPPED_PINE_LOG, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
 
-    public static final BlockItem STRIPPED_PINE_WOOD = new BlockItem(ModBlocks.STRIPPED_PINE_WOOD, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final BlockItem STRIPPED_PINE_WOOD = new BlockItem(NeoBlocks.STRIPPED_PINE_WOOD, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
 
-    public static final BlockItem PINE_LEAVES = new BlockItem(ModBlocks.PINE_LEAVES, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final BlockItem PINE_LEAVES = new BlockItem(NeoBlocks.PINE_LEAVES, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
 
-    public static final BlockItem PINE_STAIRS = new BlockItem(ModBlocks.PINE_STAIRS, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final BlockItem PINE_STAIRS = new BlockItem(NeoBlocks.PINE_STAIRS, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
 
-    public static final BlockItem PINE_SLAB = new BlockItem(ModBlocks.PINE_SLAB, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final BlockItem PINE_SLAB = new BlockItem(NeoBlocks.PINE_SLAB, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
 
-    public static final BlockItem PINE_FENCE = new BlockItem(ModBlocks.PINE_FENCE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final BlockItem PINE_FENCE = new BlockItem(NeoBlocks.PINE_FENCE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
 
-    public static final BlockItem PINE_FENCE_GATE = new BlockItem(ModBlocks.PINE_FENCE_GATE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final BlockItem PINE_FENCE_GATE = new BlockItem(NeoBlocks.PINE_FENCE_GATE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
 
-    public static final BlockItem PINE_BUTTON = new BlockItem(ModBlocks.PINE_BUTTON, new Item.Settings().group(ItemGroup.REDSTONE));
+    public static final BlockItem PINE_BUTTON = new BlockItem(NeoBlocks.PINE_BUTTON, new Item.Settings().group(ItemGroup.REDSTONE));
 
-    public static final BlockItem PINE_PRESSURE_PLATE = new BlockItem(ModBlocks.PINE_PRESSURE_PLATE, new Item.Settings().group(ItemGroup.REDSTONE));
+    public static final BlockItem PINE_PRESSURE_PLATE = new BlockItem(NeoBlocks.PINE_PRESSURE_PLATE, new Item.Settings().group(ItemGroup.REDSTONE));
 
-    public static final BlockItem PINE_DOOR = new BlockItem(ModBlocks.PINE_DOOR, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final BlockItem PINE_DOOR = new BlockItem(NeoBlocks.PINE_DOOR, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
 
-    public static final BlockItem PINE_TRAPDOOR = new BlockItem(ModBlocks.PINE_TRAPDOOR, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final BlockItem PINE_TRAPDOOR = new BlockItem(NeoBlocks.PINE_TRAPDOOR, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
 
     public static final Item IRIDIUM = new Item(new FabricItemSettings().group(ItemGroup.MISC).maxCount(64));
 
-    public static final BlockItem BLOCK_OF_IRIDIUM = new BlockItem(ModBlocks.BLOCK_OF_IRIDIUM, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final BlockItem BLOCK_OF_IRIDIUM = new BlockItem(NeoBlocks.BLOCK_OF_IRIDIUM, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "dino_nuggets"), DINO_NUGGETS);

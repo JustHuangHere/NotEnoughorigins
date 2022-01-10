@@ -2,12 +2,11 @@ package com.justhuanghere.neo.registry;
 
 import com.justhuanghere.neo.Neo;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class ModBlocks {
+public class NeoBlocks {
 
     public static final Block PINE_LOG = new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG));
 
@@ -21,7 +20,7 @@ public class ModBlocks {
 
     public static final Block PINE_LEAVES = new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES));
 
-    public static final Block PINE_STAIRS = new ModStairsBlock(ModBlocks.PINE_PLANKS.getDefaultState(),FabricBlockSettings.copy(Blocks.OAK_STAIRS));
+    public static final Block PINE_STAIRS = new NeoStairsBlock(NeoBlocks.PINE_PLANKS.getDefaultState(),FabricBlockSettings.copy(Blocks.OAK_STAIRS));
 
     public static final Block PINE_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.OAK_SLAB));
 
@@ -29,14 +28,14 @@ public class ModBlocks {
 
     public static final Block PINE_FENCE_GATE = new FenceGateBlock(FabricBlockSettings.copy(Blocks.OAK_FENCE_GATE));
 
-    public static final Block PINE_BUTTON = new ModButtonBlock(FabricBlockSettings.copy(Blocks.OAK_BUTTON));
+    public static final Block PINE_BUTTON = new NeoButtonBlock(FabricBlockSettings.copy(Blocks.OAK_BUTTON));
 
-    public static final Block PINE_PRESSURE_PLATE = new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+    public static final Block PINE_PRESSURE_PLATE = new NeoPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
             FabricBlockSettings.copy(Blocks.OAK_PRESSURE_PLATE));
 
-    public static final Block PINE_DOOR = new ModDoorBlock(FabricBlockSettings.copy(Blocks.OAK_DOOR).nonOpaque());
+    public static final Block PINE_DOOR = new NeoDoorBlock(FabricBlockSettings.copy(Blocks.OAK_DOOR).nonOpaque());
 
-    public static final Block PINE_TRAPDOOR = new ModTrapdoorBlock(FabricBlockSettings.copy(Blocks.OAK_TRAPDOOR).nonOpaque());
+    public static final Block PINE_TRAPDOOR = new NeoTrapdoorBlock(FabricBlockSettings.copy(Blocks.OAK_TRAPDOOR).nonOpaque());
 
     public static final Block BLOCK_OF_IRIDIUM = new Block(FabricBlockSettings.of(Material.METAL).strength(5.0f)
             .resistance(6.0f));

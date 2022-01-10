@@ -5,8 +5,8 @@ import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.entity.player.PlayerEntity;
 
-public class ModStatusEffect extends StatusEffect {
-    public ModStatusEffect() {
+public class NeoStatusEffect extends StatusEffect {
+    public NeoStatusEffect() {
         super(StatusEffectCategory.HARMFUL, 0x1e570);
     }
 @Override
@@ -14,7 +14,7 @@ public class ModStatusEffect extends StatusEffect {
     @Override
     public void applyUpdateEffect(LivingEntity entity, int amplifier) {
         if (entity instanceof PlayerEntity) {
-            ((PlayerEntity)entity).damage(ModDamageSource.BLIGHTDAMAGE, Float.parseFloat("1"));
+            ((PlayerEntity)entity).damage(NeoDamageSource.BLIGHTDAMAGE, Float.parseFloat("1"));
         }
     }
 }

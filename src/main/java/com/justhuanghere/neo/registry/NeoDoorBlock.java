@@ -2,8 +2,8 @@ package com.justhuanghere.neo.registry;
 
 import net.minecraft.block.DoorBlock;
 
-public class ModDoorBlock extends DoorBlock {
-    public ModDoorBlock(Settings settings) {
+public class NeoDoorBlock extends DoorBlock {
+    public NeoDoorBlock(Settings settings) {
         super(settings);
     }
 }
