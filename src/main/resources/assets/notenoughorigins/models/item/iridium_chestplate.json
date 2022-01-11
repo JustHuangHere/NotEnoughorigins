@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "notenoughorigins:item/pine_chestplate"
+  }
+}

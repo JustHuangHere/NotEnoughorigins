@@ -16,7 +16,7 @@ import net.minecraft.util.registry.Registry;
 public class Neo implements ModInitializer {
     public static final String notenoughorigins = "notenoughorigins";
     public static final StatusEffect BLIGHT = new NeoStatusEffect();
-    public static final Identifier ITEM_ARMOR_EQUIP_IRIDIUM = new Identifier("noteoughorigins:item.armor.equip_iridium");
+    public static final Identifier ITEM_ARMOR_EQUIP_IRIDIUM = new Identifier("notenoughorigins:item.armor.equip_iridium");
     public static final SoundEvent ARMOR_EQUIP_IRIDIUM = new SoundEvent(ITEM_ARMOR_EQUIP_IRIDIUM);
 
     @Override
