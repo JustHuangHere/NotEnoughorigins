@@ -1,9 +1,6 @@
-# Fabric Example Mod
+# NotEnoughOrigins
 
-## Setup
+###https://www.curseforge.com/minecraft/mc-mods/notenoughorigins
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This is the GitHub repository for the **NotEnoughOrigins** addon for the mod __**Origins**__, created for Fabric. If you found any bugs
+you can go report it [here](https://github.com/JustHuangHere/NotEnoughorigins/issues).
