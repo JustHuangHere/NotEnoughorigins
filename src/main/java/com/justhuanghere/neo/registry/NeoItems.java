@@ -3,10 +3,7 @@ package com.justhuanghere.neo.registry;
 import com.justhuanghere.neo.Neo;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.FoodComponent;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -51,13 +48,40 @@ public class NeoItems {
 
     public static final BlockItem PINE_TRAPDOOR = new BlockItem(NeoBlocks.PINE_TRAPDOOR, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
 
-    public static final Item IRIDIUM = new Item(new FabricItemSettings().group(ItemGroup.MISC).maxCount(64));
+    public static final Item IRIDIUM = new Item(new FabricItemSettings().group(ItemGroup.MISC).maxCount(64).fireproof());
 
-    public static final BlockItem IRIDIUM_BLOCK = new BlockItem(NeoBlocks.IRIDIUM_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final BlockItem IRIDIUM_BLOCK = new BlockItem(NeoBlocks.IRIDIUM_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).fireproof());
 
-    public static final BlockItem IRIDIUM_ORE = new BlockItem(NeoBlocks.IRIDIUM_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final BlockItem IRIDIUM_ORE = new BlockItem(NeoBlocks.IRIDIUM_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).fireproof());
 
-    public static final BlockItem DEEPSLATE_IRIDIUM_ORE = new BlockItem(NeoBlocks.DEEPSLATE_IRIDIUM_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final BlockItem DEEPSLATE_IRIDIUM_ORE = new BlockItem(NeoBlocks.DEEPSLATE_IRIDIUM_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).fireproof());
+
+    public static final Item IRIDIUM_SWORD = new SwordItem(NeoToolMaterial.IRIDIUM, 3, -2.4F,
+            new FabricItemSettings().group(ItemGroup.COMBAT).fireproof());
+
+    public static final Item IRIDIUM_SHOVEL = new ShovelItem(NeoToolMaterial.IRIDIUM, 1.5F, -3.0F,
+            new FabricItemSettings().group(ItemGroup.TOOLS).fireproof());
+
+    public static final Item IRIDIUM_PICKAXE = new NeoModPickaxe(NeoToolMaterial.IRIDIUM, 1, -2.8F,
+            new FabricItemSettings().group(ItemGroup.TOOLS).fireproof());
+
+    public static final Item IRIDIUM_AXE = new NeoModAxe(NeoToolMaterial.IRIDIUM, 5.0F, -3.0F,
+            new FabricItemSettings().group(ItemGroup.TOOLS).fireproof());
+
+    public static final Item IRIDIUM_HOE = new NeoModHoe(NeoToolMaterial.IRIDIUM, -4, 0.0F,
+            new FabricItemSettings().group(ItemGroup.TOOLS).fireproof());
+
+    public static final Item IRIDIUM_HELMET = new ArmorItem(NeoArmorMaterial.IRIDIUM, EquipmentSlot.HEAD,
+            new FabricItemSettings().group(ItemGroup.COMBAT));
+
+    public static final Item IRIDIUM_CHESTPLATE = new ArmorItem(NeoArmorMaterial.IRIDIUM, EquipmentSlot.CHEST,
+            new FabricItemSettings().group(ItemGroup.COMBAT));
+
+    public static final Item IRIDIUM_LEGGINGS = new ArmorItem(NeoArmorMaterial.IRIDIUM, EquipmentSlot.LEGS,
+            new FabricItemSettings().group(ItemGroup.COMBAT));
+
+    public static final Item IRIDIUM_BOOTS = new ArmorItem(NeoArmorMaterial.IRIDIUM, EquipmentSlot.FEET,
+            new FabricItemSettings().group(ItemGroup.COMBAT));
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "dino_nuggets"), DINO_NUGGETS);
@@ -82,6 +106,15 @@ public class NeoItems {
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_block"), IRIDIUM_BLOCK);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_ore"), IRIDIUM_ORE);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "deepslate_iridium_ore"), DEEPSLATE_IRIDIUM_ORE);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_sword"), IRIDIUM_SWORD);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_shovel"), IRIDIUM_SHOVEL);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_pickaxe"), IRIDIUM_PICKAXE);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_axe"), IRIDIUM_AXE);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_hoe"), IRIDIUM_HOE);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_helmet"), IRIDIUM_HELMET);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_chestplate"), IRIDIUM_CHESTPLATE);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_leggings"), IRIDIUM_LEGGINGS);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_boots"), IRIDIUM_BOOTS);
     }
 }
 

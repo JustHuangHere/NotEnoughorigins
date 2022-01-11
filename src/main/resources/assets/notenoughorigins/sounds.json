@@ -1,0 +1,8 @@
+{
+  "item.armor.equip_iridium": {
+    "subtitle": "subtitles.notenoughorigins.item.armor.equip_iridium",
+    "sounds": [
+      "notenoughorigins:item.armor.equip_iridium"
+    ]
+  }
+}
