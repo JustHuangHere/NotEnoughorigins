@@ -18,7 +18,9 @@
   "block.notenoughorigins.pine_pressure_plate": "Pine Pressure Plate",
   "block.notenoughorigins.pine_door": "Pine Door",
   "block.notenoughorigins.pine_trapdoor": "Pine Trapdoor",
-  "block.notenoughorigins.block_of_iridium": "Block of Iridium",
+  "block.notenoughorigins.iridium_block": "Block of Iridium",
+  "block.notenoughorigins.iridium_ore": "Iridium Ore",
+  "block.notenoughorigins.deepslate_iridium_ore": "Deepslate Iridium Ore",
   "effect.notenoughorigins.blight": "Blighted",
   "death.attack.blightdamage": "%1$s was infected with blight",
   "death.attack.stoned": "%2$s got their head hit too hard with a pebble thrown by %1$s"

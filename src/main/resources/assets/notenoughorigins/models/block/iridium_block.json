@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "notenoughorigins:block/block_of_iridium"
+    "all": "notenoughorigins:block/iridium_block"
   }
 }

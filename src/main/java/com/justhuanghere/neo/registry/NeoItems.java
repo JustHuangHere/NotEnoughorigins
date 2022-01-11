@@ -53,7 +53,11 @@ public class NeoItems {
 
     public static final Item IRIDIUM = new Item(new FabricItemSettings().group(ItemGroup.MISC).maxCount(64));
 
-    public static final BlockItem BLOCK_OF_IRIDIUM = new BlockItem(NeoBlocks.BLOCK_OF_IRIDIUM, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final BlockItem IRIDIUM_BLOCK = new BlockItem(NeoBlocks.IRIDIUM_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+
+    public static final BlockItem IRIDIUM_ORE = new BlockItem(NeoBlocks.IRIDIUM_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+
+    public static final BlockItem DEEPSLATE_IRIDIUM_ORE = new BlockItem(NeoBlocks.DEEPSLATE_IRIDIUM_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "dino_nuggets"), DINO_NUGGETS);
@@ -75,7 +79,9 @@ public class NeoItems {
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins,"pine_door"),PINE_DOOR);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins,"pine_trapdoor"),PINE_TRAPDOOR);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium"), IRIDIUM);
-        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "block_of_iridium"), BLOCK_OF_IRIDIUM);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_block"), IRIDIUM_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_ore"), IRIDIUM_ORE);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "deepslate_iridium_ore"), DEEPSLATE_IRIDIUM_ORE);
     }
 }
 

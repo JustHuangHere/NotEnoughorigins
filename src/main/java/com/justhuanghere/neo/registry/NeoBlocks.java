@@ -3,6 +3,7 @@ package com.justhuanghere.neo.registry;
 import com.justhuanghere.neo.Neo;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -37,8 +38,14 @@ public class NeoBlocks {
 
     public static final Block PINE_TRAPDOOR = new NeoTrapdoorBlock(FabricBlockSettings.copy(Blocks.OAK_TRAPDOOR).nonOpaque());
 
-    public static final Block BLOCK_OF_IRIDIUM = new Block(FabricBlockSettings.of(Material.METAL).strength(5.0f)
-            .resistance(6.0f));
+    public static final Block IRIDIUM_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(5.0f)
+            .resistance(6.0f).requiresTool());
+
+    public static final Block IRIDIUM_ORE = new OreBlock(FabricBlockSettings.of(Material.STONE).strength(5.0f).resistance(6.0f)
+            .sounds(BlockSoundGroup.METAL).requiresTool());
+
+    public static final Block DEEPSLATE_IRIDIUM_ORE = new OreBlock(FabricBlockSettings.of(Material.STONE)
+            .strength(4.5f).resistance(3.0f).mapColor(MapColor.DEEPSLATE_GRAY).sounds(BlockSoundGroup.DEEPSLATE).requiresTool());
 
     public static void registerBlocks() {
       Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_log"), PINE_LOG);
@@ -55,6 +62,8 @@ public class NeoBlocks {
       Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_pressure_plate"), PINE_PRESSURE_PLATE);
       Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_door"), PINE_DOOR);
       Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_trapdoor"), PINE_TRAPDOOR);
-      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "block_of_iridium"), BLOCK_OF_IRIDIUM);
+      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "iridium_block"), IRIDIUM_BLOCK);
+      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "iridium_ore"), IRIDIUM_ORE);
+      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "deepslate_iridium_ore"), DEEPSLATE_IRIDIUM_ORE);
     }
 }

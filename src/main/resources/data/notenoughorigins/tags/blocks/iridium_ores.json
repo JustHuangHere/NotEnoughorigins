@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "notenoughorigins:iridium_block",
     "notenoughorigins:iridium_ore",
     "notenoughorigins:deepslate_iridium_ore"
   ]

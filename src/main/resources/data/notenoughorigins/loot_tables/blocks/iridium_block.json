@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "notenoughorigins:block_of_iridium"
+          "name": "notenoughorigins:iridium_block"
         }
       ],
       "conditions": [
