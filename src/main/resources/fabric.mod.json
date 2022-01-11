@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "notenoughorigins",
   "version": "${version}",
-
   "name": "NotEnoughOrigins",
   "description": "Origins addon that adds more origins into the original mod and adds some custom items",
   "authors": [
@@ -11,7 +10,6 @@
   "contact": {
     "sources": "https://github.com/JustHuangHere/NotEnoughorigins"
   },
-
   "license": "MIT",
   "icon": "assets/neo/icon.png",
 
@@ -24,7 +22,6 @@
   "mixins": [
     "neo.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",
