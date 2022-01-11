@@ -43,7 +43,7 @@ public class NeoBlocks {
     public static void registerBlocks() {
       Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_log"), PINE_LOG);
       Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_wood"), PINE_WOOD);
-      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_planks.json"), PINE_PLANKS);
+      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_planks"), PINE_PLANKS);
       Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "stripped_pine_log"), STRIPPED_PINE_LOG);
       Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "stripped_pine_wood"), STRIPPED_PINE_WOOD);
       Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_leaves"), PINE_LEAVES);
