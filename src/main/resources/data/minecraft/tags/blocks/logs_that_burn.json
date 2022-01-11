@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#notenoughorigins:pine_logs"
+    "notenoughorigins:pine_log",
+    "notenoughorigins:pine_wood",
+    "notenoughorigins:stripped_pine_log",
+    "notenoughorigins:stripped_pine_wood"
   ]
 }
