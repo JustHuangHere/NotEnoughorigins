@@ -1,6 +1,7 @@
 package com.justhuanghere.neo.registry;
 
 import com.justhuanghere.neo.Neo;
+import com.justhuanghere.neo.util.CustomBoatType;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
@@ -83,6 +84,8 @@ public class NeoItems {
     public static final Item IRIDIUM_BOOTS = new ArmorItem(NeoArmorMaterial.IRIDIUM, EquipmentSlot.FEET,
             new FabricItemSettings().group(ItemGroup.COMBAT));
 
+    public static final Item PINE_BOAT = new BoatItem(CustomBoatType.PINE, new Item.Settings().maxCount(1).group(ItemGroup.TRANSPORTATION));
+
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "dino_nuggets"), DINO_NUGGETS);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "cubone_skull"), CUBONE_SKULL);
@@ -115,6 +118,7 @@ public class NeoItems {
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_chestplate"), IRIDIUM_CHESTPLATE);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_leggings"), IRIDIUM_LEGGINGS);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_boots"), IRIDIUM_BOOTS);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "pine_boat"), PINE_BOAT);
     }
 }
 
