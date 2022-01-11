@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "notenoughorigins:pine_planks"
+          "name": "notenoughorigins:pine_log"
         }
       ],
       "conditions": [
