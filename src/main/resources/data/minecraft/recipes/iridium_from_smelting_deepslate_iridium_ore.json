@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "iridium",
+  "ingredient": {
+    "item": "notenoughorigins:deepslate_iridium_ore"
+  },
+  "result": "notenoughorigins:iridium",
+  "experience": 1.0,
+  "cookingtime": 200
+}

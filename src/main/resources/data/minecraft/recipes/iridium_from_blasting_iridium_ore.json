@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "iridium",
+  "ingredient": {
+    "item": "notenoughorigins:iridium_ore"
+  },
+  "result": "notenoughorigins:iridium",
+  "experience": 1.8,
+  "cookingtime": 100
+}
