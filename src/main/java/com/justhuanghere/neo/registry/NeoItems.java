@@ -88,6 +88,8 @@ public class NeoItems {
 
     public static final Item COFFEE_BEANS = new AliasedBlockItem(NeoBlocks.COFFEE, new FabricItemSettings().group(ItemGroup.MISC));
 
+    public static final Item CRONUS_ICON = new Item(new FabricItemSettings().maxCount(1).group(ItemGroup.MISC));
+
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "dino_nuggets"), DINO_NUGGETS);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "cubone_skull"), CUBONE_SKULL);
@@ -122,6 +124,7 @@ public class NeoItems {
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_boots"), IRIDIUM_BOOTS);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "pine_boat"), PINE_BOAT);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "coffee_beans"), COFFEE_BEANS);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "cronus_icon"), CRONUS_ICON);
     }
 }
 

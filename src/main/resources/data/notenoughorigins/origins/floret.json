@@ -1,0 +1,9 @@
+{
+  "powers": [
+  ],
+  "icon": "minecraft:poppy",
+  "order": 20,
+  "impact": 2,
+  "name": "Floret",
+  "description": "A race of flowers that had bloomed since the dawn of time. They are capable to keep the environment beautiful and make other plants grow"
+}
