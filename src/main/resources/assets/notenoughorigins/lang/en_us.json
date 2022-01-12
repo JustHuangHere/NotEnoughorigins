@@ -32,6 +32,8 @@
   "item.notenoughorigins.iridium_chestplate": "Iridium Chestplate",
   "item.notenoughorigins.iridium_leggings": "Iridium Leggings",
   "item.notenoughorigins.iridium_boots": "Iridium Boots",
+  "item.notenoughorigins.coffee_beans": "Coffee Beans",
+  "block.notenoughorigins.coffee_plant": "Coffee Plant",
   "effect.notenoughorigins.blight": "Blighted",
   "death.attack.blightdamage": "%1$s was infected with blight",
   "death.attack.stoned": "%2$s got their head hit too hard with a pebble thrown by %1$s"

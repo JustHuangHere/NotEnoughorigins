@@ -3,7 +3,6 @@ package com.justhuanghere.neo.registry;
 import com.justhuanghere.neo.Neo;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
-import net.minecraft.item.Item;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -22,7 +21,7 @@ public class NeoBlocks {
 
     public static final Block PINE_LEAVES = new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES));
 
-    public static final Block PINE_STAIRS = new NeoStairsBlock(NeoBlocks.PINE_PLANKS.getDefaultState(),FabricBlockSettings.copy(Blocks.OAK_STAIRS));
+    public static final Block PINE_STAIRS = new NeoStairsBlock(NeoBlocks.PINE_PLANKS.getDefaultState(), FabricBlockSettings.copy(Blocks.OAK_STAIRS));
 
     public static final Block PINE_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.OAK_SLAB));
 
@@ -48,23 +47,28 @@ public class NeoBlocks {
     public static final Block DEEPSLATE_IRIDIUM_ORE = new OreBlock(FabricBlockSettings.of(Material.STONE)
             .strength(4.5f).resistance(3.0f).mapColor(MapColor.DEEPSLATE_GRAY).sounds(BlockSoundGroup.DEEPSLATE).requiresTool());
 
+    public static final Block COFFEE = new CoffeePlantBlock(FabricBlockSettings.copy(Blocks.WHEAT).nonOpaque().nonOpaque());
+
+
     public static void registerBlocks() {
-      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_log"), PINE_LOG);
-      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_wood"), PINE_WOOD);
-      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_planks"), PINE_PLANKS);
-      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "stripped_pine_log"), STRIPPED_PINE_LOG);
-      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "stripped_pine_wood"), STRIPPED_PINE_WOOD);
-      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_leaves"), PINE_LEAVES);
-      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_stairs"), PINE_STAIRS);
-      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_slab"), PINE_SLAB);
-      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_fence"), PINE_FENCE);
-      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_fence_gate"), PINE_FENCE_GATE);
-      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_button"), PINE_BUTTON);
-      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_pressure_plate"), PINE_PRESSURE_PLATE);
-      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_door"), PINE_DOOR);
-      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_trapdoor"), PINE_TRAPDOOR);
-      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "iridium_block"), IRIDIUM_BLOCK);
-      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "iridium_ore"), IRIDIUM_ORE);
-      Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "deepslate_iridium_ore"), DEEPSLATE_IRIDIUM_ORE);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_log"), PINE_LOG);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_wood"), PINE_WOOD);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_planks"), PINE_PLANKS);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "stripped_pine_log"), STRIPPED_PINE_LOG);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "stripped_pine_wood"), STRIPPED_PINE_WOOD);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_leaves"), PINE_LEAVES);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_stairs"), PINE_STAIRS);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_slab"), PINE_SLAB);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_fence"), PINE_FENCE);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_fence_gate"), PINE_FENCE_GATE);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_button"), PINE_BUTTON);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_pressure_plate"), PINE_PRESSURE_PLATE);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_door"), PINE_DOOR);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_trapdoor"), PINE_TRAPDOOR);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "iridium_block"), IRIDIUM_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "iridium_ore"), IRIDIUM_ORE);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "deepslate_iridium_ore"), DEEPSLATE_IRIDIUM_ORE);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "coffee"), COFFEE);
     }
 }
+

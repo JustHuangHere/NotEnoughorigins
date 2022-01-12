@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "notenoughorigins:block/coffee_stage1"
+  }
+}
