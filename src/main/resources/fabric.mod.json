@@ -5,7 +5,8 @@
   "name": "NotEnoughOrigins",
   "description": "Origins addon that adds more origins into the original mod and adds some custom items",
   "authors": [
-    "JustHuangHere"
+    "JustHuangHere",
+    "SaturnDevoid"
   ],
   "contact": {
     "sources": "https://github.com/JustHuangHere/NotEnoughorigins"

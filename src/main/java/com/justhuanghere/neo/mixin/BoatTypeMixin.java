@@ -1,9 +1,9 @@
 package com.justhuanghere.neo.mixin;
 
-import com.justhuanghere.neo.Neo;
 import com.justhuanghere.neo.registry.NeoBlocks;
 import com.justhuanghere.neo.util.CustomBoatType;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.entity.vehicle.BoatEntity;
 import org.objectweb.asm.Opcodes;
 import org.spongepowered.asm.mixin.Final;
@@ -15,7 +15,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.Arrays;
 
