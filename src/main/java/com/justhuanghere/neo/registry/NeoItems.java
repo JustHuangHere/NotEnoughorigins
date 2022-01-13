@@ -90,7 +90,7 @@ public class NeoItems {
 
     public static final Item CRONUS_ICON = new Item(new FabricItemSettings().maxCount(1).group(ItemGroup.MISC));
 
-    public static final Item EMPTY_GLASS = new GlassBottleItem(new FabricItemSettings().group(ItemGroup.BREWING).maxCount(16));
+    public static final Item EMPTY_GLASS = new Item(new FabricItemSettings().group(ItemGroup.BREWING).maxCount(16));
 
     public static final Item LATTE = new LatteItem(new FabricItemSettings().recipeRemainder(NeoItems.EMPTY_GLASS)
             .group(ItemGroup.FOOD).maxCount(16).food(NeoFoodComponent.LATTE));
