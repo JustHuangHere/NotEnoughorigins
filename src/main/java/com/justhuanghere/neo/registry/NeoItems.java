@@ -6,19 +6,20 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 
 public class NeoItems {
 
-    public static final Item DINO_NUGGETS = new Item(new FabricItemSettings().maxCount(64).group(ItemGroup.FOOD)
+    public static final Item DINO_NUGGETS = new Item(new FabricItemSettings().maxCount(16).group(ItemGroup.FOOD)
             .food(NeoFoodComponent.DINO_NUGGETS));
 
     public static final Item CUBONE_SKULL = new Item(new FabricItemSettings().maxCount(1).group(ItemGroup.MISC).equipmentSlot(stack -> EquipmentSlot.HEAD));
 
-    public static final Item PINE_CONE = new Item(new FabricItemSettings().maxCount(64).group(ItemGroup.DECORATIONS));
+    public static final Item PINE_CONE = new Item(new FabricItemSettings().maxCount(16).group(ItemGroup.DECORATIONS));
 
-    public static final Item PINE_NUTS = new Item(new FabricItemSettings().maxCount(64).group(ItemGroup.FOOD)
+    public static final Item PINE_NUTS = new Item(new FabricItemSettings().maxCount(16).group(ItemGroup.FOOD)
             .food(new FoodComponent.Builder().alwaysEdible().hunger(1).saturationModifier(0.5f).snack().build()));
 
     public static final BlockItem PINE_LOG = new BlockItem(NeoBlocks.PINE_LOG, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
@@ -95,6 +96,11 @@ public class NeoItems {
     public static final Item LATTE = new LatteItem(new FabricItemSettings().recipeRemainder(NeoItems.EMPTY_GLASS)
             .group(ItemGroup.FOOD).maxCount(16).food(NeoFoodComponent.LATTE));
 
+    public static final Item PINE_NUT_SOUP = new StewItem(new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1).food(NeoFoodComponent.PINE_NUT_SOUP));
+
+    public static final Item ENCHANTED_GOLDEN_DINO_NUGGET = new EnchantedGoldenDinoNugget(new FabricItemSettings().group(ItemGroup.FOOD)
+            .food(NeoFoodComponent.ENCHANTED_GOLDEN_DINO_NUGGET).rarity(Rarity.EPIC));
+
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "dino_nuggets"), DINO_NUGGETS);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "cubone_skull"), CUBONE_SKULL);
@@ -132,6 +138,8 @@ public class NeoItems {
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "cronus_icon"), CRONUS_ICON);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "empty_glass"), EMPTY_GLASS);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "latte"), LATTE);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "pine_nut_soup"), PINE_NUT_SOUP);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "enchanted_golden_dino_nugget"), ENCHANTED_GOLDEN_DINO_NUGGET);
     }
 }
 

@@ -5,8 +5,8 @@ import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.entity.player.PlayerEntity;
 
-public class NeoStatusEffect extends StatusEffect {
-    public NeoStatusEffect() {
+public class NeoBlightedEffect extends StatusEffect {
+    public NeoBlightedEffect() {
         super(StatusEffectCategory.HARMFUL, 0x1e570);
     }
 @Override

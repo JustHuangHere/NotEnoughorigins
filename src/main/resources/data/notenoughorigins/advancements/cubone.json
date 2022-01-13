@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "notenoughorigins:cubone_skull"
+    },
+    "title": "Easter Egg",
+    "description": "§5I see you've found me!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "notenoughorigins:root",
+  "criteria": {
+    "cubone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "notenoughorigins:cubone_skull"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

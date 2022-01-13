@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "item": "notenoughorigins:iridium_chestplate"
+    },
+    "title": "Cover Me in Iridium",
+    "description": "§5Get a full suit of Iridium armor",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "notenoughorigins:iridium",
+  "criteria": {
+    "iridium_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "notenoughorigins:iridium_helmet"
+            ]
+          },
+          {
+            "items": [
+              "notenoughorigins:iridium_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "notenoughorigins:iridium_leggings"
+            ]
+          },
+          {
+            "items": [
+              "notenoughorigins:iridium_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

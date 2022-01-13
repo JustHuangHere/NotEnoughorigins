@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "notenoughorigins:enchanted_golden_dino_nugget"
+    },
+    "title": "Enchanted Golden Dino Nuggets?",
+    "description": "§Consumed Enchanted Golden Dino Nugget",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "notenoughorigins:root",
+  "criteria": {
+    "enchanted": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "notenoughorigins:enchanted_golden_dino_nugget"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

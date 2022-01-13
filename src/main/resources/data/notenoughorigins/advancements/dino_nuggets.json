@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "notenoughorigins:dino_nuggets"
+    },
+    "title": "Oh Tasty",
+    "description": "§aDid it taste good?",
+    "frame": "task"
+  },
+  "parent": "notenoughorigins:root",
+  "criteria": {
+    "dino_nuggets": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "notenoughorigins:dino_nuggets"
+          ]
+        }
+      }
+    }
+  }
+}

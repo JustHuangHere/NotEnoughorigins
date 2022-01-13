@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "notenoughorigins:iridium"
+    },
+    "title": "Valuable Component!",
+    "description": "§aAcquire Iridium!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "notenoughorigins:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "notenoughorigins:iridium"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

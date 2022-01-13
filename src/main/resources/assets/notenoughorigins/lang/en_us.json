@@ -1,5 +1,6 @@
 {
   "item.notenoughorigins.dino_nuggets": "Dino Nuggets",
+  "item.notenoughorigins.enchanted_golden_dino_nugget": "Enchanted Golden Dino Nugget",
   "item.notenoughorigins.cubone_skull": "Cubone Skull",
   "item.notenoughorigins.pine_nuts": "Pine Nuts",
   "item.notenoughorigins.pine_cone": "Pine Cone",
@@ -35,9 +36,9 @@
   "item.notenoughorigins.coffee_beans": "Coffee Beans",
   "item.notenoughorigins.cronus_icon": "Cronus Icon",
   "item.notenoughorigins.empty_glass": "Coffee Glass",
+  "item.notenoughorigins.pine_nut_soup": "Pine Nut Soup",
   "item.notenoughorigins.latte": "Glass of Latte",
   "block.notenoughorigins.coffee_plant": "Coffee Plant",
   "effect.notenoughorigins.blight": "Blighted",
-  "death.attack.blightdamage": "%1$s was infected with blight",
-  "death.attack.stoned": "%2$s got their head hit too hard with a pebble thrown by %1$s"
+  "death.attack.blightdamage": "%1$s was infected with blight"
 }

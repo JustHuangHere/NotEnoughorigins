@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "notenoughorigins:iridium_block"
+    },
+    "title": "Wealthy Possession",
+    "description": "Acquired Block of Iridium!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "notenoughorigins:iridium",
+  "criteria": {
+    "iridium_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "notenoughorigins:iridium_block"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
