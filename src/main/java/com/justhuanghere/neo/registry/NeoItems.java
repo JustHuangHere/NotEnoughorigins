@@ -12,7 +12,7 @@ import net.minecraft.util.registry.Registry;
 public class NeoItems {
 
     public static final Item DINO_NUGGETS = new Item(new FabricItemSettings().maxCount(64).group(ItemGroup.FOOD)
-            .food(new FoodComponent.Builder().alwaysEdible().meat().hunger(3).saturationModifier(3.6f).build()));
+            .food(NeoFoodComponent.DINO_NUGGETS));
 
     public static final Item CUBONE_SKULL = new Item(new FabricItemSettings().maxCount(1).group(ItemGroup.MISC).equipmentSlot(stack -> EquipmentSlot.HEAD));
 
@@ -90,6 +90,11 @@ public class NeoItems {
 
     public static final Item CRONUS_ICON = new Item(new FabricItemSettings().maxCount(1).group(ItemGroup.MISC));
 
+    public static final Item EMPTY_GLASS = new GlassBottleItem(new FabricItemSettings().group(ItemGroup.BREWING).maxCount(16));
+
+    public static final Item LATTE = new LatteItem(new FabricItemSettings().recipeRemainder(NeoItems.EMPTY_GLASS)
+            .group(ItemGroup.FOOD).maxCount(16).food(NeoFoodComponent.LATTE));
+
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "dino_nuggets"), DINO_NUGGETS);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "cubone_skull"), CUBONE_SKULL);
@@ -125,6 +130,8 @@ public class NeoItems {
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "pine_boat"), PINE_BOAT);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "coffee_beans"), COFFEE_BEANS);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "cronus_icon"), CRONUS_ICON);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "empty_glass"), EMPTY_GLASS);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "latte"), LATTE);
     }
 }
 

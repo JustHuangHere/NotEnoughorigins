@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "%",
+    "$",
+    "#"
+  ],
+  "key": {
+    "%": {
+      "item": "notenoughorigins:coffee_beans"
+    },
+    "#": {
+      "item": "notenoughorigins:empty_glass"
+    },
+    "$": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "item": "notenoughorigins:latte",
+    "count": 1
+  }
+}

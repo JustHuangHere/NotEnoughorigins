@@ -34,6 +34,8 @@
   "item.notenoughorigins.iridium_boots": "Iridium Boots",
   "item.notenoughorigins.coffee_beans": "Coffee Beans",
   "item.notenoughorigins.cronus_icon": "Cronus Icon",
+  "item.notenoughorigins.empty_glass": "Coffee Glass",
+  "item.notenoughorigins.latte": "Glass of Latte",
   "block.notenoughorigins.coffee_plant": "Coffee Plant",
   "effect.notenoughorigins.blight": "Blighted",
   "death.attack.blightdamage": "%1$s was infected with blight",
