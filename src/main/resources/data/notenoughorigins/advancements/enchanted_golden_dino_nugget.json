@@ -4,7 +4,7 @@
       "item": "notenoughorigins:enchanted_golden_dino_nugget"
     },
     "title": "Enchanted Golden Dino Nuggets?",
-    "description": "§Consumed Enchanted Golden Dino Nugget",
+    "description": "§5Consumed Enchanted Golden Dino Nugget",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true

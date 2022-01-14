@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    " "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bowl"
+    },
+    "X": {
+      "item": "notenoughorigins:pine_nut"
+    }
+  },
+  "result": {
+    "item": "notenoughorigins:iridium_axe"
+  }
+}

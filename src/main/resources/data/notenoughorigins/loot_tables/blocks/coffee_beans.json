@@ -6,8 +6,26 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "notenoughorigins:coffee_beans"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "notenoughorigins:coffee",
+                  "properties": {
+                    "age": "7"
+                  }
+                }
+              ],
+              "name": "notenoughorigins:coffee_beans"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "notenoughorigins:coffee_beans"
+            }
+          ]
         }
       ]
     },
