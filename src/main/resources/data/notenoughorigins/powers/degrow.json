@@ -1,0 +1,64 @@
+{
+	"type": "origins:active_self",
+	"hidden": true,
+	"cooldown": 20,
+	"hud_render": {
+		"should_render": false
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:resource",
+				"inverted": true,
+				"resource": "notenoughorigins:resource",
+				"comparison": "==",
+				"compare_to": 1
+			},
+			{
+				"type": "origins:or",
+				"conditions": [{
+						"type": "origins:equipped_item",
+						"equipment_slot": "offhand",
+						"item_condition": {
+							"type": "origins:ingredient",
+							"ingredient": {
+								"item": "minecraft:shears"
+							}
+						}
+					},
+					{
+						"type": "origins:equipped_item",
+						"equipment_slot": "mainhand",
+						"item_condition": {
+							"type": "origins:ingredient",
+							"ingredient": {
+								"item": "minecraft:shears"
+							}
+						}
+					}
+				]
+			}
+		]
+	},
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:change_resource",
+				"resource": "notenoughorigins:resource",
+				"change": -1
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "function notenoughorigins:sounds"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:enchanted_hit ~ ~ ~ .200 1 .200 0 20 force"
+			}
+		]
+	},
+	"key": {
+		"key": "key.use",
+		"continuous": true
+	}
+}

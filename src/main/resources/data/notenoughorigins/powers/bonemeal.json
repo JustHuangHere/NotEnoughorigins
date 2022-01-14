@@ -1,0 +1,27 @@
+{
+  "type": "origins:active_self",
+  "name": "Natural Fertilizer",
+  "description": "Being a plant, you can grow crops at the cost of your sunlight and water.",
+  "entity_action": {
+    "type": "origins:raycast",
+    "distance": 5,
+    "block": true,
+    "entity": false,
+    "shape_type": "collider",
+    "fluid_handling": "none",
+    "block_action": {
+      "type": "origins:bonemeal",
+      "effects": true
+    },
+    "command_along_ray": "particle minecraft:soul_fire_flame"
+  },
+  "cooldown": 200,
+  "hud_render": {
+    "sprite_location": "notenoughorigins:textures/gui/resource_bar_01.png",
+    "bar_index": 0
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  }
+}

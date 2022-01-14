@@ -1,0 +1,19 @@
+{
+	"type": "origins:prevent_item_use",
+	"name": "Nectarivore",
+	"description": "You are unable to eat food but you are able to drink honey. Honey also gives more saturation and hunger points.",
+	"item_condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:food"
+			},
+			{
+				"type": "origins:ingredient",
+				"inverted": true,
+				"ingredient": {
+					"item": "minecraft:honey_bottle"
+				}
+			}
+		]
+	}
+}

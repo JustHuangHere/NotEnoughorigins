@@ -1,0 +1,66 @@
+{
+	"type": "origins:active_self",
+	"hidden": true,
+	"cooldown": 20,
+	"hud_render": {
+		"should_render": false
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:block_in_radius",
+				"block_condition": {
+					"type": "origins:in_tag",
+					"tag": "minecraft:flowers"
+				},
+				"radius": 3,
+				"shape": "cube",
+				"comparison": ">=",
+				"compare_to": 1
+			},
+			{
+				"type": "origins:or",
+				"conditions": [{
+						"type": "origins:equipped_item",
+						"equipment_slot": "offhand",
+						"item_condition": {
+							"type": "origins:ingredient",
+							"ingredient": {
+								"item": "minecraft:glass_bottle"
+							}
+						}
+					},
+					{
+						"type": "origins:equipped_item",
+						"equipment_slot": "mainhand",
+						"item_condition": {
+							"type": "origins:ingredient",
+							"ingredient": {
+								"item": "minecraft:glass_bottle"
+							}
+						}
+					}
+				]
+			}
+		]
+	},
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+				"command": "clear @s minecraft:glass_bottle 1"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "give @s minecraft:honey_bottle"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "playsound minecraft:block.beehive.drip voice @a[distance=..6]"
+			}
+		]
+	},
+	"key": {
+		"key": "key.use"
+	}
+}

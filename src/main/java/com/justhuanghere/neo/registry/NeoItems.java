@@ -17,7 +17,7 @@ public class NeoItems {
 
     public static final Item CUBONE_SKULL = new Item(new FabricItemSettings().maxCount(1).group(ItemGroup.MISC).equipmentSlot(stack -> EquipmentSlot.HEAD));
 
-    public static final Item PINE_CONE = new Item(new FabricItemSettings().maxCount(16).group(ItemGroup.DECORATIONS));
+    public static final Item PINE_CONE = new Item(new FabricItemSettings().maxCount(16).group(ItemGroup.MISC));
 
     public static final Item PINE_NUTS = new Item(new FabricItemSettings().maxCount(16).group(ItemGroup.FOOD)
             .food(new FoodComponent.Builder().alwaysEdible().hunger(1).saturationModifier(0.5f).snack().build()));

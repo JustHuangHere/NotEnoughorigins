@@ -1,5 +1,22 @@
 {
   "powers": [
+    "notenoughorigins:bonemeal",
+    "notenoughorigins:honey",
+    "notenoughorigins:honey2",
+    "notenoughorigins:honey3",
+    "notenoughorigins:honey4",
+    "notenoughorigins:food",
+    "notenoughorigins:resource",
+    "notenoughorigins:height",
+    "notenoughorigins:height2",
+    "notenoughorigins:height3",
+    "notenoughorigins:height4",
+    "notenoughorigins:height5",
+    "notenoughorigins:height6",
+    "notenoughorigins:height7",
+    "notenoughorigins:degrow",
+    "notenoughorigins:reset",
+    "notenoughorigins:grow"
   ],
   "icon": "minecraft:poppy",
   "order": 20,

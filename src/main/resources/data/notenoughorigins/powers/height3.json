@@ -1,0 +1,23 @@
+{
+	"type": "origins:action_over_time",
+	"hidden": true,
+	"rising_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:height 0.65 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:width 0.65 @s"
+			}
+		]
+	},
+	"interval": 1,
+	"condition": {
+		"type": "origins:resource",
+		"resource": "notenoughorigins:resource",
+		"comparison": "==",
+		"compare_to": 3
+	}
+}
