@@ -5,8 +5,8 @@
 	"item_condition": {
 		"type": "origins:and",
 		"conditions": [{
-				"type": "origins:food"
-			},
+			"type": "origins:food"
+		},
 			{
 				"type": "origins:ingredient",
 				"inverted": true,
@@ -15,5 +15,11 @@
 				}
 			}
 		]
-	}
+	},
+	"badges": [
+		{
+			"sprite": "notenoughorigins:textures/gui/negative.png",
+			"text": "Can't eat food except Honey!"
+		}
+	]
 }

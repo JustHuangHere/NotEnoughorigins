@@ -7,13 +7,12 @@
     "distance": 5,
     "block": true,
     "entity": false,
-    "shape_type": "collider",
+    "shape_type": "outline",
     "fluid_handling": "none",
     "block_action": {
       "type": "origins:bonemeal",
       "effects": true
-    },
-    "command_along_ray": "particle minecraft:soul_fire_flame"
+    }
   },
   "cooldown": 200,
   "hud_render": {

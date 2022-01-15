@@ -1,32 +1,35 @@
 {
 	"type": "origins:action_on_entity_use",
 	"name": "Sweet Tooth",
-	"description": "You are able to extract the nectars located in bees and flowers and turn them into honey by right clicking flowers or bees with nectar while holding an empty bottle on your hand.",
+	"description": "You are able to extract the nectars located in bees and flowers and turn them into honey. Extract them from flowers or bees with nectar while holding an empty bottle on your hand.",
 	"bientity_action": {
 		"type": "origins:and",
-		"actions": [{
-			"type": "origins:target_action",
-			"action": {
-				"type": "origins:and",
-				"actions": [{
-					"type": "origins:execute_command",
-					"command": "execute at @e[type=bee,sort=nearest,limit=1] run particle minecraft:dust 0.98823529411 0.7294117647 0.01176470588 1 ~ ~ ~ 1 1 1 1 50 force"
-				},
-					{
-						"type": "origins:execute_command",
-						"command": "data modify entity @e[type=bee,limit=1,sort=nearest] HasNectar set value 0"
-					}
-				]
-			}
-		},
+		"actions": [
+			{
+				"type": "origins:target_action",
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "execute at @e[type=bee,sort=nearest,limit=1] run particle minecraft:dust 0.98823529411 0.7294117647 0.01176470588 1 ~ ~ ~ 1 1 1 1 50 force"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "data modify entity @e[type=bee,limit=1,sort=nearest] HasNectar set value 0"
+						}
+					]
+				}
+			},
 			{
 				"type": "origins:actor_action",
 				"action": {
 					"type": "origins:and",
-					"actions": [{
-						"type": "origins:execute_command",
-						"command": "clear @s minecraft:glass_bottle 1"
-					},
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "clear @s minecraft:glass_bottle 1"
+						},
 						{
 							"type": "origins:execute_command",
 							"command": "give @s minecraft:honey_bottle"
@@ -44,10 +47,11 @@
 		"type": "origins:target_condition",
 		"condition": {
 			"type": "origins:and",
-			"conditions": [{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:bee"
-			},
+			"conditions": [
+				{
+					"type": "origins:entity_type",
+					"entity_type": "minecraft:bee"
+				},
 				{
 					"type": "origins:nbt",
 					"nbt": "{HasNectar:1b}"
@@ -64,5 +68,11 @@
 	"hands": [
 		"main_hand",
 		"off_hand"
+	],
+	"badges": [
+		{
+			"sprite": "notenoughorigins:textures/gui/positive.png",
+			"text": "Right click flowers or bees with nectar"
+		}
 	]
 }
