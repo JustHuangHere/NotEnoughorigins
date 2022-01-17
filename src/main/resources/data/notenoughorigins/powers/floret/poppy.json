@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "name": "Scented Gift",
-  "description": "You release magical scents that gives magical effects to entities and harmful effects to monsters, you can release these scents by wearing the flower [check flower tooltips for effect info].",
+  "description": "You release magical scents that gives magical effects to entities and harmful effects to monsters, you can release these scents by wearing the flower and at the cost of your hunger [check flower tooltips for effect info].",
   "cooldown": 1200,
   "hud_render": {
       "sprite_location": "notenoughorigins:textures/gui/resource_bar_01.png",
