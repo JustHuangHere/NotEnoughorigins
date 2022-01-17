@@ -47,8 +47,6 @@ public class NeoBlocks {
     public static final Block DEEPSLATE_IRIDIUM_ORE = new OreBlock(FabricBlockSettings.of(Material.STONE)
             .strength(4.5f).resistance(3.0f).mapColor(MapColor.DEEPSLATE_GRAY).sounds(BlockSoundGroup.DEEPSLATE).requiresTool());
 
-    public static final Block COFFEE = new CoffeePlantBlock(FabricBlockSettings.copy(Blocks.WHEAT).nonOpaque().nonOpaque());
-
 
     public static void registerBlocks() {
         Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_log"), PINE_LOG);
@@ -68,7 +66,6 @@ public class NeoBlocks {
         Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "iridium_block"), IRIDIUM_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "iridium_ore"), IRIDIUM_ORE);
         Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "deepslate_iridium_ore"), DEEPSLATE_IRIDIUM_ORE);
-        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "coffee"), COFFEE);
     }
 }
 

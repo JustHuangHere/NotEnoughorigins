@@ -26,7 +26,6 @@ public class Neo implements ModInitializer {
         NeoRegistries.registerStrippable();
         BlockRenderLayerMap.INSTANCE.putBlock(NeoBlocks.PINE_TRAPDOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(NeoBlocks.PINE_DOOR, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(NeoBlocks.COFFEE, RenderLayer.getCutout());
         Registry.register(Registry.STATUS_EFFECT, new Identifier("notenoughorigins", "blight"), BLIGHT);
         Registry.register(Registry.SOUND_EVENT, Neo.ITEM_ARMOR_EQUIP_IRIDIUM, ARMOR_EQUIP_IRIDIUM);
         FlammableBlockRegistry.getDefaultInstance().add(NeoBlocks.PINE_PLANKS, 5, 20);
