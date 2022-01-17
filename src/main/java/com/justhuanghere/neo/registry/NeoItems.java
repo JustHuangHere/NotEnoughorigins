@@ -87,14 +87,7 @@ public class NeoItems {
 
     public static final Item PINE_BOAT = new BoatItem(CustomBoatType.PINE, new Item.Settings().maxCount(1).group(ItemGroup.TRANSPORTATION));
 
-    public static final Item COFFEE_BEANS = new AliasedBlockItem(NeoBlocks.COFFEE, new FabricItemSettings().group(ItemGroup.MISC));
-
     public static final Item CRONUS_ICON = new Item(new FabricItemSettings().maxCount(1).group(ItemGroup.MISC));
-
-    public static final Item EMPTY_GLASS = new Item(new FabricItemSettings().group(ItemGroup.BREWING).maxCount(16));
-
-    public static final Item LATTE = new LatteItem(new FabricItemSettings().recipeRemainder(NeoItems.EMPTY_GLASS)
-            .group(ItemGroup.FOOD).maxCount(16).food(NeoFoodComponent.LATTE));
 
     public static final Item PINE_NUT_SOUP = new StewItem(new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1).food(NeoFoodComponent.PINE_NUT_SOUP));
 
@@ -134,10 +127,7 @@ public class NeoItems {
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_leggings"), IRIDIUM_LEGGINGS);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_boots"), IRIDIUM_BOOTS);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "pine_boat"), PINE_BOAT);
-        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "coffee_beans"), COFFEE_BEANS);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "cronus_icon"), CRONUS_ICON);
-        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "empty_glass"), EMPTY_GLASS);
-        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "latte"), LATTE);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "pine_nut_soup"), PINE_NUT_SOUP);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "enchanted_golden_dino_nugget"), ENCHANTED_GOLDEN_DINO_NUGGET);
     }
