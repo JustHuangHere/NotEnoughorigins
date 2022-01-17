@@ -1,6 +1,7 @@
 {
 	"type": "origins:active_self",
-	"hidden": true,
+	"name": "Flowery Growth",
+	"description": "You start off as a small flower and you are able to grow by using bonemeals, using shears on yourself will make you smaller.",
 	"cooldown": 20,
 	"hud_render": {
 		"should_render": false
@@ -64,5 +65,11 @@
 	"key": {
 		"key": "key.use",
 		"continuous": true
-	}
+	},
+	"badges": [
+		{
+			"sprite": "notenoughorigins:textures/gui/tree.png",
+			"text": "[Right click Bonemeals to grow yourself, right click shears to degrow.]"
+		}
+	]
 }
