@@ -28,7 +28,7 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "effect give @e[distance=..5,type=!#notenoughorigins:hostile] minecraft:conduit_power 15 2 true"
+        "command": "effect give @e[distance=..5,type=!#notenoughorigins:hostile] minecraft:conduit_power 30 2 true"
       },
       {
         "type": "origins:feed",

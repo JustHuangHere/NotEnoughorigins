@@ -28,7 +28,7 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "effect give @e[distance=..5,type=!#notenoughorigins:hostile] minecraft:water_breathing 15 0 true"
+        "command": "effect give @e[distance=..5,type=!#notenoughorigins:hostile] minecraft:water_breathing 30 0 true"
       },
       {
         "type": "origins:feed",

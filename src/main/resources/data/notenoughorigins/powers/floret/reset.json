@@ -3,7 +3,7 @@
 	"hidden": true,
 	"entity_action_chosen": {
 		"type": "origins:change_resource",
-		"resource": "notenoughorigins:resource",
+		"resource": "notenoughorigins:floret/resource",
 		"change": 1
 	},
 	"entity_action_lost": {

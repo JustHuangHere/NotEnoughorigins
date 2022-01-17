@@ -16,7 +16,7 @@
 	"interval": 1,
 	"condition": {
 		"type": "origins:resource",
-		"resource": "notenoughorigins:resource",
+		"resource": "notenoughorigins:floret/resource",
 		"comparison": "==",
 		"compare_to": 4
 	}

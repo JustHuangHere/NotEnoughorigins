@@ -29,7 +29,7 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "effect give @e[distance=..5,type=!#notenoughorigins:hostile] minecraft:regeneration 15 0 true"
+        "command": "effect give @e[distance=..5,type=!#notenoughorigins:hostile] minecraft:regeneration 30 0 true"
       },
       {
         "type": "origins:feed",

@@ -10,7 +10,7 @@
 		"conditions": [{
 				"type": "origins:resource",
 				"inverted": true,
-				"resource": "notenoughorigins:resource",
+				"resource": "notenoughorigins:floret/resource",
 				"comparison": "==",
 				"compare_to": 1
 			},
@@ -44,7 +44,7 @@
 		"type": "origins:and",
 		"actions": [{
 				"type": "origins:change_resource",
-				"resource": "notenoughorigins:resource",
+				"resource": "notenoughorigins:floret/resource",
 				"change": -1
 			},
 			{

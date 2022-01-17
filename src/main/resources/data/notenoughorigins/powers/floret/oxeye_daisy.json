@@ -28,7 +28,7 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "effect give @e[distance=..5,type=!#notenoughorigins:hostile] minecraft:invisibility 15 0 true"
+        "command": "effect give @e[distance=..5,type=!#notenoughorigins:hostile] minecraft:invisibility 30 0 true"
       },
       {
         "type": "origins:feed",
