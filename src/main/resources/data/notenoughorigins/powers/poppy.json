@@ -45,7 +45,7 @@
   "badges": [
     {
       "sprite": "notenoughorigins:textures/gui/positive.png",
-      "text": "[Right click the flower in hotbar to choose wear flower.]"
+      "text": "[Right click the flower in hotbar to wear flower.]"
     },
     {
       "sprite": "origins:textures/gui/badge/active.png",

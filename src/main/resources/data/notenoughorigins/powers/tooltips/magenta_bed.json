@@ -1,0 +1,11 @@
+{
+  "type": "origins:tooltip",
+  "hidden": true,
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:magenta_bed"
+    }
+  },
+  "text": "Unusable (§cRespiratory System§r)"
+}
