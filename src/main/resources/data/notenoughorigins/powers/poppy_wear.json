@@ -1,0 +1,71 @@
+{
+  "type": "origins:active_self",
+  "hidden": true,
+  "cooldown": 20,
+  "hud_render": {
+    "should_render": false
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [{
+      "type": "origins:equipped_item",
+      "inverted": true,
+      "equipment_slot": "head",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:poppy"
+        }
+      }
+    },
+      {
+          "type": "origins:or",
+          "conditions": [{
+            "type": "origins:equipped_item",
+            "equipment_slot": "offhand",
+            "item_condition": {
+              "type": "origins:ingredient",
+              "ingredient": {
+                "item": "minecraft:poppy"
+              }
+            }
+          },
+            {
+              "type": "origins:equipped_item",
+              "equipment_slot": "mainhand",
+              "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                  "item": "minecraft:poppy"
+                }
+              }
+            }
+          ]
+        }
+    ]
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [{
+      "type": "origins:execute_command",
+      "command": "playsound minecraft:block.flowering_azalea.place voice @a[distance=..15]"
+    },
+      {
+        "type": "origins:execute_command",
+        "command": "item replace entity @s armor.head with minecraft:poppy"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "particle minecraft:dust 0.848 0.208 0.188 1 ~ ~ ~ 1 1 1 1 50 force"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "clear @s minecraft:poppy 1"
+      }
+    ]
+  },
+  "key": {
+    "key": "key.use",
+    "continuous": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "type": "origins:active_self",
+  "hidden": true,
+  "cooldown": 1200,
+  "hud_render": {
+    "sprite_location": "notenoughorigins:textures/gui/resource_bar_01.png",
+    "bar_index": 8
+  },
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "head",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:white_tulip"
+      }
+    }
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [{
+      "type": "origins:execute_command",
+      "command": "function notenoughorigins:sounds2"
+    },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s facing entity @s feet run function notenoughorigins:white_tulip"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "effect give @e[distance=..5,type=!#notenoughorigins:hostile] minecraft:slow_falling 15 0 true"
+      },
+      {
+        "type": "origins:feed",
+        "food": -2,
+        "saturation": 0
+      }
+    ]
+  },
+  "key": {
+    "key": "key.origins.secondary_active",
+    "continuous": true
+  }
+}

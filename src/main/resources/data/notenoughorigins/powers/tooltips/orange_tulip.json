@@ -1,0 +1,11 @@
+{
+  "type": "origins:tooltip",
+  "hidden": true,
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:orange_tulip"
+    }
+  },
+  "text": "§6[Fire Resistance I for 15 seconds]"
+}

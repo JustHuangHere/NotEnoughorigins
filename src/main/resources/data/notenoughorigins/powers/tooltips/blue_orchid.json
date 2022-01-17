@@ -1,0 +1,11 @@
+{
+  "type": "origins:tooltip",
+  "hidden": true,
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:blue_orchid"
+    }
+  },
+  "text": "§6[Conduit Power III for 15 seconds]"
+}

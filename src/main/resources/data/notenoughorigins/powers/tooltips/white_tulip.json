@@ -1,0 +1,11 @@
+{
+  "type": "origins:tooltip",
+  "hidden": true,
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:white_tulip"
+    }
+  },
+  "text": "§6[Slow Falling I for 15 seconds]"
+}

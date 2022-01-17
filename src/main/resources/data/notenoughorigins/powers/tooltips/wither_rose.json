@@ -1,0 +1,11 @@
+{
+  "type": "origins:tooltip",
+  "hidden": true,
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:wither_rose"
+    }
+  },
+  "text": "§6[Wither I to Monster entities for 15 seconds]"
+}

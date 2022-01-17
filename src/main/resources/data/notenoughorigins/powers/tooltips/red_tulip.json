@@ -1,0 +1,11 @@
+{
+  "type": "origins:tooltip",
+  "hidden": true,
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:red_tulip"
+    }
+  },
+  "text": "§6[Health Boost I for 15 seconds]"
+}

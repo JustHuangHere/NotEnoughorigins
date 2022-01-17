@@ -1,0 +1,5 @@
+{
+  "type": "origins:status_bar_texture",
+  "hidden": true,
+  "texture": "notenoughorigins:textures/gui/stat_bars_01.png"
+}

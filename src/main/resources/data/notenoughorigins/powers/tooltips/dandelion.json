@@ -1,0 +1,11 @@
+{
+  "type": "origins:tooltip",
+  "hidden": true,
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:dandelion"
+    }
+  },
+  "text": "§6[Absorption I for 15 seconds]"
+}

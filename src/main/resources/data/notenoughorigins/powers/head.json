@@ -1,0 +1,9 @@
+{
+  "type": "origins:restrict_armor",
+  "hidden": true,
+  "head": {
+    "type": "origins:armor_value",
+    "comparison": ">=",
+    "compare_to": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "origins:tooltip",
+  "hidden": true,
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:azure_bluet"
+    }
+  },
+  "text": "§6[Haste I for 15 seconds]"
+}

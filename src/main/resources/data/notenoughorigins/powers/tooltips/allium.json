@@ -1,0 +1,11 @@
+{
+  "type": "origins:tooltip",
+  "hidden": true,
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:allium"
+    }
+  },
+  "text": "§6[Night Vision I for 15 seconds]"
+}
