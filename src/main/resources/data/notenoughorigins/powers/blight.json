@@ -1,0 +1,53 @@
+{
+  "type": "origins:self_action_when_hit",
+  "name": "Blight Infection",
+  "description": "Entities such as bees, silverfish, spiders carry around fungal spores that can give you blight. Once you get hit by them you'll get the blight effect",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "notenoughorigins:blight",
+      "duration": 200,
+      "amplifier": 0,
+      "is_ambient": true,
+      "show_particles": true,
+      "show_icon": true
+    }
+  },
+  "damage_condition": {
+    "type": "origins:or",
+    "conditions": [{
+      "type": "origins:attacker",
+      "entity_condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:bee"
+      }
+    },
+      {
+        "type": "origins:attacker",
+        "entity_condition": {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:silverfish"
+        }
+      },
+      {
+        "type": "origins:attacker",
+        "entity_condition": {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:spider"
+        }
+      },
+      {
+        "type": "origins:attacker",
+        "entity_condition": {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:cave_spider"
+        }
+      }
+    ]
+  },
+  "cooldown": 20,
+  "badges": [{
+    "sprite": "notenoughorigins:textures/gui/negative.png",
+    "text": "Careful not to get Blighted!"
+  }]
+}
