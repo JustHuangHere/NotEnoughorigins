@@ -1,5 +1,8 @@
 {
   "powers": [
+    "notenoughorigins:cronus/glowing",
+    "notenoughorigins:cronus/body",
+    "notenoughorigins:cronus/health"
   ],
   "icon": "notenoughorigins:cronus_icon",
   "order": 20,

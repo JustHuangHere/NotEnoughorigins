@@ -1,0 +1,8 @@
+{
+  "type": "origins:self_glow",
+  "hidden": true,
+  "use_teams": false,
+  "red": 1,
+  "green": 0.628,
+  "blue": 0.328
+}
