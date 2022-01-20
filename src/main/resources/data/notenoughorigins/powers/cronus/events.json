@@ -1,0 +1,10 @@
+{
+  "type": "origins:prevent_game_event",
+  "hidden": true,
+  "condition": {
+    "type": "origins:resource",
+    "resource": "notenoughorigins:cronus/resource_02",
+    "comparison": "==",
+    "compare_to": 1
+  }
+}

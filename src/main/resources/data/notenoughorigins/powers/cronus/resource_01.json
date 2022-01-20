@@ -1,0 +1,22 @@
+{
+  "type": "origins:resource",
+  "name": "Astral Watcher",
+  "description": "When You die, you turn into an Astral Watcher that looks out for other people. When you are close to a hostile mob while in Astral Watcher form, you will start doing damage to them and you will give regeneration to any nearby passive entities!",
+  "min": 0,
+  "max": 6000,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "notenoughorigins:textures/gui/resource_bar_01.png",
+    "bar_index": 14,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "notenoughorigins:cronus/resource_02",
+      "comparison": "==",
+      "compare_to": 1
+    }
+  },
+  "badges": [{
+    "sprite": "notenoughorigins:textures/gui/ghost.png",
+    "text": "You are in §8Astral Watcher§r form!"
+  }]
+}

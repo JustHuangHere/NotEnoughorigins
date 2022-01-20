@@ -1,0 +1,57 @@
+{
+  "type": "origins:prevent_death",
+  "hidden": true,
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [{
+      "type": "origins:change_resource",
+      "resource": "notenoughorigins:cronus/resource_02",
+      "change": 1
+    },
+      {
+        "type": "origins:execute_command",
+        "command": "tellraw @s {\"text\":\"You have gone in Astral Watcher Mode\",\"color\":\"gold\"}"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "particle minecraft:wax_off ~ ~ ~ 1 1 1 100 1000 normal"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "particle minecraft:enchant ~ ~ ~ 10 10 10 1 1000 force"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "particle minecraft:wax_off ~ ~ ~ 1 1 1 100 1000 normal"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "particle minecraft:enchant ~ ~ ~ 10 10 10 1 1000 force"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "particle minecraft:dust 1 1 1 1 ~ ~ ~ 10 10 10 1 1000 normal"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "particle minecraft:enchant ~ ~ ~ 10 10 10 1 1000 force"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "playsound minecraft:block.amethyst_cluster.break voice @a[distance=..10]"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "playsound minecraft:block.respawn_anchor.deplete voice @a[distance=..10]"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "effect give @s minecraft:instant_health 1 100 true"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "effect give @s minecraft:saturation 1 100 true"
+      }
+    ]
+  }
+}

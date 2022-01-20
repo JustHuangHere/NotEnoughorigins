@@ -1,0 +1,11 @@
+{
+  "type": "origins:invisibility",
+  "hidden": true,
+  "render_armor": false,
+  "condition": {
+    "type": "origins:resource",
+    "resource": "notenoughorigins:cronus/resource_02",
+    "comparison": "==",
+    "compare_to": 1
+  }
+}

@@ -1,8 +1,17 @@
 {
   "type": "origins:self_glow",
-  "hidden": true,
+  "name": "Sunlight Reflection",
+  "description": "You reflect the sunlight off your upper-atmospheric clouds causing you to shine when you are exposed to sunlight",
   "use_teams": false,
   "red": 1,
   "green": 0.628,
-  "blue": 0.328
+  "blue": 0.328,
+  "condition": {
+    "type": "origins:exposed_to_sun"
+  },
+  "badges": [{
+    "sprite": "notenoughorigins:textures/gui/light.png",
+    "text": "You §6Glow§r when exposed to sunlight!"
+  }]
 }
+

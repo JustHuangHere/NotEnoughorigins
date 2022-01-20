@@ -1,0 +1,24 @@
+{
+  "type": "origins:action_over_time",
+  "hidden": true,
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "notenoughorigins:cronus/resource",
+    "change": 1
+  },
+  "interval": 20,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [{
+      "type": "origins:exposed_to_sun"
+    },
+      {
+        "type": "origins:resource",
+        "inverted": true,
+        "resource": "notenoughorigins:cronus/resource_02",
+        "comparison": "==",
+        "compare_to": 1
+      }
+    ]
+  }
+}

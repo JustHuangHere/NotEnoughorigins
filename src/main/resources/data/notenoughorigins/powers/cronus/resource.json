@@ -1,0 +1,16 @@
+{
+  "type": "origins:resource",
+  "name": "Solar Habitation",
+  "description": "Due to you living in Saturn, the 7th planet from the sun. You get almost no sunlight and you get a little weird when reacting to the sun for too long",
+  "min": 0,
+  "max": 30,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "notenoughorigins:textures/gui/resource_bar_01.png",
+    "bar_index": 16
+  },
+  "badges": [{
+    "sprite": "notenoughorigins:textures/gui/negative.png",
+    "text": "You get nausea effect after being in the sun for 30 seconds!"
+  }]
+}

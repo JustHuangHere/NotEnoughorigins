@@ -1,0 +1,13 @@
+{
+  "type": "origins:prevent_entity_collision",
+  "hidden": true,
+  "bientity_condition": {
+    "type": "origins:actor_condition",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "notenoughorigins:cronus/resource_02",
+      "comparison": "==",
+      "compare_to": 1
+    }
+  }
+}

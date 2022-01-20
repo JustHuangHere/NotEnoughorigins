@@ -1,7 +1,7 @@
 {
 	"type": "origins:target_action_on_hit",
 	"name": "Falling Stars",
-	"description": "You are able to drop falling stars on the enemy causing an explosion and a doing damage any entities around it.",
+	"description": "You are able to drop falling stars on the enemy causing an explosion and a doing damage any entities around it. This power will only hurt hostile mobs!",
 	"entity_action": {
 		"type": "origins:execute_command",
 		"command": "execute as @s at @s run function notenoughorigins:summon_star"
@@ -10,5 +10,9 @@
 	"hud_render": {
 	  "sprite_location": "notenoughorigins:textures/gui/resource_bar_01.png",
 	  "bar_index": 15
-	}
+	},
+	"badges": [{
+		"sprite": "notenoughorigins:textures/gui/positive.png",
+		"text": "Hit your enemies to drop falling stars on them!"
+	}]
 }

@@ -1,0 +1,20 @@
+{
+  "type": "origins:prevent_entity_use",
+  "hidden": true,
+  "bientity_action": {
+    "type": "origins:actor_action",
+    "action": {
+      "type": "origins:execute_command",
+      "command": "tellraw @s {\"text\":\"✢You can't interact with entities in Astral Watcher Form✢\",\"color\":\"dark_red\"}"
+    }
+  },
+  "bientity_condition": {
+    "type": "origins:actor_condition",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "notenoughorigins:cronus/resource_02",
+      "comparison": "==",
+      "compare_to": 1
+    }
+  }
+}

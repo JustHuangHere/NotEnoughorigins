@@ -1,0 +1,15 @@
+{
+  "type": "origins:action_over_time",
+  "hidden": true,
+  "rising_action": {
+    "type": "origins:execute_command",
+    "command": "resource set @s notenoughorigins:cronus/resource_02 0"
+  },
+  "interval": 20,
+  "condition": {
+    "type": "origins:resource",
+    "resource": "notenoughorigins:cronus/resource_01",
+    "comparison": "==",
+    "compare_to": 6000
+  }
+}

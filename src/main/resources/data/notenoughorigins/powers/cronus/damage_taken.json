@@ -1,0 +1,14 @@
+{
+  "type": "origins:modify_damage_taken",
+  "hidden": true,
+  "condition": {
+    "type": "origins:resource",
+    "resource": "notenoughorigins:cronus/resource_02",
+    "comparison": "==",
+    "compare_to": 1
+  },
+  "modifier": {
+    "operation": "multiply_total",
+    "value": -1.0
+  }
+}

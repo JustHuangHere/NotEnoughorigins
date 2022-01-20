@@ -1,0 +1,11 @@
+{
+  "type": "origins:prevent_sleep",
+  "hidden": true,
+  "message": "§6§k123§rYou can't sleep in Astral Watcher form§6§k 321",
+  "condition": {
+    "type": "origins:resource",
+    "resource": "notenoughorigins:cronus/resource_02",
+    "comparison": "==",
+    "compare_to": 1
+  }
+}
