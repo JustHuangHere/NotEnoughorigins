@@ -2,7 +2,9 @@
   "powers": [
     "notenoughorigins:cronus/glowing",
     "notenoughorigins:cronus/body",
-    "notenoughorigins:cronus/health"
+    "notenoughorigins:cronus/health",
+    "notenoughorigins:cronus/falling_star",
+    "notenoughorigins:cronus/falling_star_02"
   ],
   "icon": "notenoughorigins:cronus_icon",
   "order": 20,

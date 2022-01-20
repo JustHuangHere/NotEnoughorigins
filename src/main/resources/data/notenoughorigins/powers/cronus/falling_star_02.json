@@ -1,0 +1,12 @@
+{
+	"type": "origins:target_action_on_hit",
+	"entity_action": {
+		"type": "origins:execute_command",
+		"command": "tag @s add starSelf"
+	},
+	"cooldown": 600,
+	"hud_render": {
+		"should_render": false
+	},
+	"hidden": true
+}

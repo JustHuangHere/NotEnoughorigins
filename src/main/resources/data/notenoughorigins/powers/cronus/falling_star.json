@@ -1,0 +1,14 @@
+{
+	"type": "origins:target_action_on_hit",
+	"name": "Falling Stars",
+	"description": "You are able to drop falling stars on the enemy causing an explosion and a doing damage any entities around it.",
+	"entity_action": {
+		"type": "origins:execute_command",
+		"command": "execute as @s at @s run function notenoughorigins:summon_star"
+	},
+	"cooldown": 600,
+	"hud_render": {
+	  "sprite_location": "notenoughorigins:textures/gui/resource_bar_01.png",
+	  "bar_index": 15
+	}
+}

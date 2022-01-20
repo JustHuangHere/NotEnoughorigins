@@ -24,7 +24,7 @@
     },
       {
         "type": "origins:execute_command",
-        "command": "execute at @s facing entity @s feet run function notenoughorigins:pink_tulip"
+        "command": "particle minecraft:dust 0.928 0.472 0.904 1 ~ ~ ~ 1 1 1 1 50 force"
       },
       {
         "type": "origins:execute_command",

@@ -24,7 +24,7 @@
     },
       {
         "type": "origins:execute_command",
-        "command": "execute at @s facing entity @s feet run function notenoughorigins:blue_orchid"
+        "command": "particle minecraft:dust 0.096 0.864 0.948 1 ~ ~ ~ 1 1 1 1 50 force"
       },
       {
         "type": "origins:execute_command",

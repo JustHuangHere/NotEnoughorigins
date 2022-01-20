@@ -24,7 +24,7 @@
     },
       {
         "type": "origins:execute_command",
-        "command": "execute at @s facing entity @s feet run function notenoughorigins:cornflower"
+        "command": "particle minecraft:dust 0.104 0.184 0.928 1 ~ ~ ~ 1 1 1 1 50 force"
       },
       {
         "type": "origins:execute_command",
