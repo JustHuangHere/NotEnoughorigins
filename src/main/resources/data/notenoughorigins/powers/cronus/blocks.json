@@ -1,11 +1,6 @@
 {
-  "type": "origins:action_over_time",
+  "type": "origins:prevent_block_selection",
   "hidden": true,
-  "rising_action": {
-    "type": "origins:execute_command",
-    "command": "gamemode adventure @s"
-  },
-  "interval": 20,
   "condition": {
     "type": "origins:resource",
     "resource": "notenoughorigins:cronus/resource_02",

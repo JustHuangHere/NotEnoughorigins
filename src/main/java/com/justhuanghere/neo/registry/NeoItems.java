@@ -94,16 +94,19 @@ public class NeoItems {
     public static final Item ENCHANTED_GOLDEN_DINO_NUGGET = new EnchantedGoldenDinoNugget(new FabricItemSettings().group(ItemGroup.FOOD)
             .food(NeoFoodComponent.ENCHANTED_GOLDEN_DINO_NUGGET).rarity(Rarity.EPIC));
 
+    public static final BlockItem PINE_SAPLING = new BlockItem(NeoBlocks.PINE_SAPLING, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+
+    public static final BlockItem PINE_SIGN = new SignItem(new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS).maxCount(16),
+            NeoBlocks.PINE_SIGN_BLOCK, NeoBlocks.PINE_WALL_SIGN_BLOCK);
+
     public static void registerItems() {
-        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "dino_nuggets"), DINO_NUGGETS);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "cubone_skull"), CUBONE_SKULL);
-        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins,"pine_cone"), PINE_CONE);
-        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins,"pine_nuts"),PINE_NUTS);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins,"pine_log"),PINE_LOG);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins,"pine_wood"),PINE_WOOD);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins,"pine_planks"),PINE_PLANKS);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins,"stripped_pine_log"),STRIPPED_PINE_LOG);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins,"stripped_pine_wood"),STRIPPED_PINE_WOOD);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins,"pine_sapling"),PINE_SAPLING);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins,"pine_leaves"),PINE_LEAVES);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins,"pine_stairs"),PINE_STAIRS);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins,"pine_slab"),PINE_SLAB);
@@ -113,6 +116,11 @@ public class NeoItems {
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins,"pine_pressure_plate"),PINE_PRESSURE_PLATE);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins,"pine_door"),PINE_DOOR);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins,"pine_trapdoor"),PINE_TRAPDOOR);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "pine_sign"), PINE_SIGN);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "pine_boat"), PINE_BOAT);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins,"pine_cone"), PINE_CONE);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins,"pine_nuts"),PINE_NUTS);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "pine_nut_soup"), PINE_NUT_SOUP);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium"), IRIDIUM);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_block"), IRIDIUM_BLOCK);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_ore"), IRIDIUM_ORE);
@@ -126,10 +134,9 @@ public class NeoItems {
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_chestplate"), IRIDIUM_CHESTPLATE);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_leggings"), IRIDIUM_LEGGINGS);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "iridium_boots"), IRIDIUM_BOOTS);
-        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "pine_boat"), PINE_BOAT);
-        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "cronus_icon"), CRONUS_ICON);
-        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "pine_nut_soup"), PINE_NUT_SOUP);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "dino_nuggets"), DINO_NUGGETS);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "enchanted_golden_dino_nugget"), ENCHANTED_GOLDEN_DINO_NUGGET);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "cronus_icon"), CRONUS_ICON);
     }
 }
 

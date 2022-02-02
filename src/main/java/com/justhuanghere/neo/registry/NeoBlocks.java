@@ -1,10 +1,12 @@
 package com.justhuanghere.neo.registry;
 
 import com.justhuanghere.neo.Neo;
+import com.justhuanghere.neo.world.feature.tree.PineSaplingGenerator;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.SignType;
 import net.minecraft.util.registry.Registry;
 
 public class NeoBlocks {
@@ -47,6 +49,11 @@ public class NeoBlocks {
     public static final Block DEEPSLATE_IRIDIUM_ORE = new OreBlock(FabricBlockSettings.of(Material.STONE)
             .strength(4.5f).resistance(3.0f).mapColor(MapColor.DEEPSLATE_GRAY).sounds(BlockSoundGroup.DEEPSLATE).requiresTool());
 
+    public static final Block PINE_SAPLING = new NeoSaplingBlock(new PineSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING));
+
+    public static final Block PINE_WALL_SIGN_BLOCK = new WallSignBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS), NeoSignTypes.PINE);
+
+    public static final Block PINE_SIGN_BLOCK = new SignBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS).noCollision(), NeoSignTypes.PINE);
 
     public static void registerBlocks() {
         Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_log"), PINE_LOG);
@@ -66,6 +73,9 @@ public class NeoBlocks {
         Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "iridium_block"), IRIDIUM_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "iridium_ore"), IRIDIUM_ORE);
         Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "deepslate_iridium_ore"), DEEPSLATE_IRIDIUM_ORE);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_sapling"), PINE_SAPLING);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_wall_sign_block"), PINE_WALL_SIGN_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_sign_block"), PINE_SIGN_BLOCK);
     }
 }
 

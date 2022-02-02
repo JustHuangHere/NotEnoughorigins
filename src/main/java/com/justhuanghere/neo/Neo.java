@@ -1,9 +1,9 @@
 package com.justhuanghere.neo;
 
-import com.justhuanghere.neo.registry.NeoBlocks;
-import com.justhuanghere.neo.registry.NeoItems;
-import com.justhuanghere.neo.registry.NeoRegistries;
-import com.justhuanghere.neo.registry.NeoBlightedEffect;
+import com.justhuanghere.neo.registry.*;
+import com.justhuanghere.neo.world.feature.NeoConfiguredFeatures;
+import com.justhuanghere.neo.world.gen.NeoOreGeneration;
+import com.justhuanghere.neo.world.gen.NeoWorldGen;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
@@ -26,9 +26,15 @@ public class Neo implements ModInitializer {
         NeoRegistries.registerStrippable();
         BlockRenderLayerMap.INSTANCE.putBlock(NeoBlocks.PINE_TRAPDOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(NeoBlocks.PINE_DOOR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(NeoBlocks.PINE_LEAVES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(NeoBlocks.PINE_SAPLING, RenderLayer.getCutout());
         Registry.register(Registry.STATUS_EFFECT, new Identifier("notenoughorigins", "blight"), BLIGHT);
         Registry.register(Registry.SOUND_EVENT, Neo.ITEM_ARMOR_EQUIP_IRIDIUM, ARMOR_EQUIP_IRIDIUM);
         FlammableBlockRegistry.getDefaultInstance().add(NeoBlocks.PINE_PLANKS, 5, 20);
+        NeoWorldGen.generateModWorldGen();
+        NeoConfiguredFeatures.registerConfiguredFeatures();
+        NeoOreGeneration.generateOres();
+        NeoPaintings.registerPaintings();
     }
 }
 
