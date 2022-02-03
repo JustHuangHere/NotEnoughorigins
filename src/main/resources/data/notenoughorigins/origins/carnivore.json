@@ -1,0 +1,9 @@
+{
+  "powers": [
+  ],
+  "icon": "minecraft:pointed_dripstone",
+  "order": 20,
+  "impact": 3,
+  "name": "Velociraptors",
+  "description": "You have chosen the path to become a descendant of the Velociraptors species feeding on the weak preys."
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "name": "Cretacean Hybrid",
+  "order": 1,
+  "origins": [{
+    "condition": {
+      "type": "origins:origin",
+      "origin": "notenoughorigins:cretacean",
+      "layer": "origins:origin"
+    },
+    "origins": [
+      "notenoughorigins:carnivore",
+      "notenoughorigins:herbivore",
+      "notenoughorigins:aquatic"
+    ]
+  }]
+}
