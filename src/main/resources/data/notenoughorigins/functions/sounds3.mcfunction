@@ -1,0 +1,2 @@
+execute if score @s delay matches 0 run playsound minecraft:item.trident.thunder master @s ~ ~ ~ 1 1
+execute if score @s delay matches 1 run playsound minecraft:block.respawn_anchor.charge master @s ~ ~ ~ 1 1

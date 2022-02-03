@@ -1,0 +1,15 @@
+{
+	"type": "origins:action_over_time",
+	"hidden": true,
+	"entity_action": {
+		 "type": "origins:execute_command",
+         		"command": "power grant @s notenoughorigins:cronus/glow"
+	},
+	"interval": 1,
+	"condition": {
+		"type": "origins:resource",
+		"resource": "notenoughorigins:cronus/resource_03",
+		"comparison": "==",
+		"compare_to": 5
+	}
+}

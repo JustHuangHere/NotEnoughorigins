@@ -1,0 +1,13 @@
+{
+	"type": "origins:entity_glow",
+	"hidden": true,
+	"bientity_condition": {
+		"type": "origins:distance",
+		"comparison": "<=",
+		"compare_to": 30
+	},
+	"use_teams": false,
+	"red": 0.7,
+	"green": 0.0,
+	"blue": 0.7
+}
