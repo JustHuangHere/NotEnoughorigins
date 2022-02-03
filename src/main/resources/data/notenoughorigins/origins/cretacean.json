@@ -1,7 +1,7 @@
 {
   "powers": [
   ],
-  "icon": "minecraft:enchanted_golden_dino_nugget",
+  "icon": "notenoughorigins:enchanted_golden_dino_nugget",
   "order": 20,
   "impact": 3,
   "name": "Cretacean",
