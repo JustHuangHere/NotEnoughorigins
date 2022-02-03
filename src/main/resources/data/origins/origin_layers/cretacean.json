@@ -9,9 +9,9 @@
       "layer": "origins:origin"
     },
     "origins": [
-      "notenoughorigins:carnivore",
-      "notenoughorigins:herbivore",
-      "notenoughorigins:aquatic"
+      "notenoughorigins:velociraptor",
+      "notenoughorigins:brachiosaurus",
+      "notenoughorigins:mosasaurs"
     ]
   }]
 }
