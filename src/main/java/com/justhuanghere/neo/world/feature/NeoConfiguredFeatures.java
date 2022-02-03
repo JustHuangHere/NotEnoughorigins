@@ -36,10 +36,6 @@ public class NeoConfiguredFeatures {
     public static final ConfiguredFeature<?, ?> IRIDIUM_ORE = register("iridium_ore",
             Feature.ORE.configure(new OreFeatureConfig(OVERWORLD_IRIDIUM_ORES, 9)));
 
-
-
-
-
     public static <FC extends FeatureConfig> ConfiguredFeature<FC, ?> register(String name, ConfiguredFeature<FC, ?> configuredFeature) {
         return Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(Neo.notenoughorigins, name),
                 configuredFeature);

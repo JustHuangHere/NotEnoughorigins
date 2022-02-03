@@ -30,9 +30,8 @@ public class Neo implements ModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(NeoBlocks.PINE_SAPLING, RenderLayer.getCutout());
         Registry.register(Registry.STATUS_EFFECT, new Identifier("notenoughorigins", "blight"), BLIGHT);
         Registry.register(Registry.SOUND_EVENT, Neo.ITEM_ARMOR_EQUIP_IRIDIUM, ARMOR_EQUIP_IRIDIUM);
-        FlammableBlockRegistry.getDefaultInstance().add(NeoBlocks.PINE_PLANKS, 5, 20);
-        NeoWorldGen.generateModWorldGen();
         NeoConfiguredFeatures.registerConfiguredFeatures();
+        NeoWorldGen.generateModWorldGen();
         NeoOreGeneration.generateOres();
         NeoPaintings.registerPaintings();
     }
