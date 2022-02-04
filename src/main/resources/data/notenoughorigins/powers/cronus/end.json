@@ -1,0 +1,25 @@
+{
+	"type": "origins:action_over_time",
+	"hidden": true,
+	"rising_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:change_resource",
+				"resource": "notenoughorigins:cronus/resource_03",
+				"change": -5
+			},
+			{
+				"type": "origins:change_resource",
+				"resource": "notenoughorigins:cronus/resource_04",
+				"change": -30
+			}
+		]
+	},
+	"interval": 20,
+	"condition": {
+		"type": "origins:resource",
+		"resource": "notenoughorigins:cronus/resource_04",
+		"comparison": "==",
+		"compare_to": 30
+	}
+}

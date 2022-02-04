@@ -1,14 +1,5 @@
 {
   "powers": [
-    "notenoughorigins:floret/bonemeal",
-    "notenoughorigins:floret/poppy",
-    "notenoughorigins:floret/honey",
-    "notenoughorigins:floret/honey_02",
-    "notenoughorigins:floret/honey_03",
-    "notenoughorigins:floret/honey_04",
-    "notenoughorigins:floret/grow",
-    "notenoughorigins:floret/food",
-    "notenoughorigins:floret/resource",
     "notenoughorigins:floret/height",
     "notenoughorigins:floret/height_02",
     "notenoughorigins:floret/height_03",
@@ -16,6 +7,15 @@
     "notenoughorigins:floret/height_05",
     "notenoughorigins:floret/height_06",
     "notenoughorigins:floret/height_07",
+    "notenoughorigins:floret/honey",
+    "notenoughorigins:floret/honey_02",
+    "notenoughorigins:floret/honey_03",
+    "notenoughorigins:floret/honey_04",
+    "notenoughorigins:floret/bonemeal",
+    "notenoughorigins:floret/poppy",
+    "notenoughorigins:floret/grow",
+    "notenoughorigins:floret/food",
+    "notenoughorigins:floret/resource",
     "notenoughorigins:floret/degrow",
     "notenoughorigins:floret/reset",
     "notenoughorigins:floret/health",
@@ -79,7 +79,5 @@
   ],
   "icon": "minecraft:poppy",
   "order": 20,
-  "impact": 2,
-  "name": "Floret",
-  "description": "A race of flowers that had bloomed since the dawn of time. They are able to use their magical powers to keep the environment beautiful and make other plants grow"
+  "impact": 2
 }

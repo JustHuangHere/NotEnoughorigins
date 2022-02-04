@@ -3,7 +3,5 @@
   ],
   "icon": "notenoughorigins:enchanted_golden_dino_nugget",
   "order": 20,
-  "impact": 3,
-  "name": "Cretacean",
-  "description": "Related to Dinosaurs, you have lived since the Jurassic Period. You are able to choose which Cretacean Hybrid you want to be."
+  "impact": 3
 }

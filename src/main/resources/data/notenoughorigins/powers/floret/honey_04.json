@@ -1,7 +1,5 @@
 {
 	"type": "origins:action_on_entity_use",
-	"name": "Sweet Tooth",
-	"description": "You are able to extract the nectars located in bees and flowers and turn them into honey. Extract them from flowers or bees with nectar while holding an empty bottle on your hand.",
 	"bientity_action": {
 		"type": "origins:and",
 		"actions": [

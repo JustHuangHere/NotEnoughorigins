@@ -1,8 +1,6 @@
 {
   "type": "origins:prevent_sleep",
-  "name": "Respiratory System",
-  "description": "You can't sleep as you are a plant and needs to respire at night",
-  "message": "§6§k123§rYou can't sleep, you must respire at night§6§k 321",
+  "message": "notenoughorigins.floret_cant_sleep",
   "badges": [{
     "sprite": "notenoughorigins:textures/gui/negative.png",
     "text": "Can't sleep!"

@@ -1,7 +1,5 @@
 {
   "type": "origins:self_action_when_hit",
-  "name": "Blight Infection",
-  "description": "Entities such as bees, silverfish, spiders carry around fungal spores that can give you blight. Once you get hit by them you'll get the blight effect",
   "entity_action": {
     "type": "origins:apply_effect",
     "effect": {

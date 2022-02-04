@@ -1,7 +1,5 @@
 {
   "type": "origins:resource",
-  "name": "Solar Habitation",
-  "description": "Due to you living in Saturn, the 7th planet from the sun. You get almost no sunlight and you get a little weird when reacting to the sun for too long",
   "min": 0,
   "max": 30,
   "hud_render": {

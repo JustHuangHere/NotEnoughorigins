@@ -1,7 +1,5 @@
 {
   "type": "origins:resource",
-  "name": "Astral Watcher",
-  "description": "When You die, you turn into an Astral Watcher that looks out for other people. This will last for 5 minutes then you'll respawn again!",
   "min": 0,
   "max": 6000,
   "hud_render": {

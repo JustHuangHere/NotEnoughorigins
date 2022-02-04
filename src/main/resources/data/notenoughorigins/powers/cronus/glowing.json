@@ -1,7 +1,5 @@
 {
   "type": "origins:self_glow",
-  "name": "Sunlight Reflection",
-  "description": "You reflect the sunlight off your upper-atmospheric clouds causing you to shine when you are exposed to sunlight",
   "use_teams": false,
   "red": 1,
   "green": 0.628,

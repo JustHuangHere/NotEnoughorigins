@@ -1,7 +1,5 @@
 {
   "type": "origins:active_self",
-  "name": "Natural Fertilizer",
-  "description": "Being a plant, you can grow crops at the cost of your sunlight and water.",
   "entity_action": {
     "type": "origins:raycast",
     "distance": 5,

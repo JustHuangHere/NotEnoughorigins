@@ -1,7 +1,5 @@
 {
 	"type": "origins:active_self",
-	"name": "Constellation Sight",
-	"description": "Every entity around you in a 30 block radius will glow in your perspective for a few seconds!",
 	"entity_action": {
 		"type": "origins:and",
 		"actions": [{
@@ -16,15 +14,6 @@
 			{
 				"type": "origins:execute_command",
 				"command": "particle minecraft:dust 0.7 0 0.7 1 ~ ~1.75 ~ .200 .200 .200 0 50"
-			},
-			{
-				"type": "origins:delay",
-				"ticks": 600,
-				"action": {
-					"type": "origins:change_resource",
-					"resource": "notenoughorigins:cronus/resource_03",
-					"change": -5
-				}
 			}
 		]
 	},

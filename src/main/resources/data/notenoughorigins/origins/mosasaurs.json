@@ -3,7 +3,5 @@
   ],
   "icon": "minecraft:prismarine_shard",
   "order": 20,
-  "impact": 3,
-  "name": "Mosasaurs",
-  "description": "You have chosen the path to become a descendant of the species Mosasaurs living in the aquatic world feeding on smaller fishes."
+  "impact": 3
 }

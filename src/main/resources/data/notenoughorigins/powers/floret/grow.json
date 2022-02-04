@@ -1,7 +1,5 @@
 {
 	"type": "origins:active_self",
-	"name": "Flowery Growth",
-	"description": "You start off as a small flower and you are able to grow by using bonemeals, using shears on yourself will make you smaller.",
 	"cooldown": 20,
 	"hud_render": {
 		"should_render": false
