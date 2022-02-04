@@ -1,15 +1,40 @@
 {
 	"type": "origins:active_self",
 	"entity_action": {
-		"type": "origins:area_of_effect",
-		"radius": 8,
-		"bientity_action": {
-			"type": "origins:target_action",
-			"action": {
-				"type": "origins:add_velocity",
-				"y": 2
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+				"command": "function notenoughorigins:sounds4"
+			},
+			{
+				"type": "origins:area_of_effect",
+				"radius": 8,
+				"bientity_action": {
+					"type": "origins:and",
+					"actions": [{
+							"type": "origins:target_action",
+							"action": {
+								"type": "origins:add_velocity",
+								"y": 1.3
+							}
+						},
+						{
+							"type": "origins:target_action",
+							"action": {
+								"type": "origins:damage",
+								"amount": 5,
+								"source": {
+									"name": "stomped"
+								}
+							}
+						}
+					]
+				}
 			}
-		}
+		]
+	},
+	"condition": {
+		"type": "origins:on_block"
 	},
 	"cooldown": 900,
 	"hud_render": {

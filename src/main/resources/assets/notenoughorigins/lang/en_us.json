@@ -45,8 +45,8 @@
 	"power.notenoughorigins.cronus/resource.description": "Due to you living in Saturn, the 7th planet from the sun. You get almost no sunlight and you get a little weird when reacting to the sun for too long.",
     "notenoughorigins.cronus_cant_sleep": "§6§k123§rYou can't sleep in Astral Watcher form§6§k 321",
 
-    "power.notenoughorigins.brachiosaurus/stomp.name": "Catastrophic Stomp",
-    "power.notenoughorigins.brachiosaurus/stomp.description": "When you are on ground, you are able to Stomp and cause other entities nearby to flung in the air and take some damage.",
+    "power.notenoughorigins.cretacean/brachiosaurus/stomp.name": "Catastrophic Stomp",
+    "power.notenoughorigins.cretacean/brachiosaurus/stomp.description": "When you are on ground, you are able to Stomp and cause other entities nearby to flung in the air and take some damage.",
 
 	"item.notenoughorigins.dino_nuggets": "Dino Nuggets",
 	"item.notenoughorigins.enchanted_golden_dino_nugget": "Enchanted Golden Dino Nugget",
@@ -88,5 +88,6 @@
 	"block.notenoughorigins.deepslate_iridium_ore": "Deepslate Iridium Ore",
 
 	"effect.notenoughorigins.blight": "Blighted",
-	"death.attack.blightdamage": "%1$s was infected with blight"
+	"death.attack.blightdamage": "%1$s was infected with blight",
+	"death.attack.stomped": "%1$s took a heavy impact from the stomp"
 }
