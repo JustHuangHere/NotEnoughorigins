@@ -97,7 +97,7 @@ public class NeoItems {
     public static final BlockItem PINE_SAPLING = new BlockItem(NeoBlocks.PINE_SAPLING, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
 
     public static final BlockItem PINE_SIGN = new SignItem(new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS).maxCount(16),
-            NeoBlocks.PINE_SIGN_BLOCK, NeoBlocks.PINE_WALL_SIGN_BLOCK);
+            NeoBlocks.PINE_SIGN, NeoBlocks.PINE_WALL_SIGN);
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "cubone_skull"), CUBONE_SKULL);

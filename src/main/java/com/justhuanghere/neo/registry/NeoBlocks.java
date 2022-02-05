@@ -51,9 +51,9 @@ public class NeoBlocks {
 
     public static final Block PINE_SAPLING = new NeoSaplingBlock(new PineSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING));
 
-    public static final Block PINE_WALL_SIGN_BLOCK = new WallSignBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS), NeoSignTypes.PINE);
+    public static final Block PINE_WALL_SIGN = new WallSignBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS), NeoSignTypes.PINE);
 
-    public static final Block PINE_SIGN_BLOCK = new SignBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS).noCollision(), NeoSignTypes.PINE);
+    public static final Block PINE_SIGN = new SignBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS).noCollision(), NeoSignTypes.PINE);
 
     public static void registerBlocks() {
         Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_log"), PINE_LOG);
@@ -74,8 +74,8 @@ public class NeoBlocks {
         Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "iridium_ore"), IRIDIUM_ORE);
         Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "deepslate_iridium_ore"), DEEPSLATE_IRIDIUM_ORE);
         Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_sapling"), PINE_SAPLING);
-        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_wall_sign_block"), PINE_WALL_SIGN_BLOCK);
-        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_sign_block"), PINE_SIGN_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_wall_sign"), PINE_WALL_SIGN);
+        Registry.register(Registry.BLOCK, new Identifier(Neo.notenoughorigins, "pine_sign"), PINE_SIGN);
     }
 }
 
