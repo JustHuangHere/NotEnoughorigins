@@ -26,8 +26,8 @@ public class BoatTypeMixin {
         throw new AssertionError();
     }
     @SuppressWarnings("ShadowTarget")
-    @Shadow
     @Final
+    @Shadow
     @Mutable
     private static BoatEntity.Type[] field_7724;
 
