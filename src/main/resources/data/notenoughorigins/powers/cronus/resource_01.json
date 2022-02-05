@@ -14,12 +14,12 @@
 		}
 	},
 	"badges": [{
-			"sprite": "notenoughorigins:textures/gui/ghost.png",
-			"text": "You are in §8Astral Watcher§r form!"
+	"sprite": "notenoughorigins:textures/gui/orange.png",
+    			"text": ""
 		},
 		{
-			"sprite": "notenoughorigins:textures/gui/orange.png",
-			"text": ""
+			"sprite": "notenoughorigins:textures/gui/ghost.png",
+            			"text": "You are in §8Astral Watcher§r form!"
 		}
 	]
 }

@@ -65,12 +65,12 @@
 		"continuous": true
 	},
 	"badges": [{
-			"sprite": "notenoughorigins:textures/gui/tree.png",
-			"text": "[Right click Bonemeals to grow yourself, right click shears to degrow.]"
+	"sprite": "notenoughorigins:textures/gui/orange.png",
+    			"text": ""
 		},
 		{
-			"sprite": "notenoughorigins:textures/gui/orange.png",
-			"text": ""
+				"sprite": "notenoughorigins:textures/gui/tree.png",
+            			"text": "[Right click Bonemeals to grow yourself, right click shears to degrow.]"
 		}
 	]
 }

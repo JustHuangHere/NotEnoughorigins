@@ -8,12 +8,12 @@
 		"type": "origins:exposed_to_sun"
 	},
 	"badges": [{
-			"sprite": "notenoughorigins:textures/gui/light.png",
-			"text": "You §6Glow§r when exposed to sunlight!"
+	"sprite": "notenoughorigins:textures/gui/orange.png",
+    			"text": ""
 		},
 		{
-			"sprite": "notenoughorigins:textures/gui/orange.png",
-			"text": ""
+			"sprite": "notenoughorigins:textures/gui/light.png",
+            			"text": "You §6Glow§r when exposed to sunlight!"
 		}
 	]
 }
