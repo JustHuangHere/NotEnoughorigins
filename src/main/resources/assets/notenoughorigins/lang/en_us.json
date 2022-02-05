@@ -51,6 +51,8 @@
     "power.notenoughorigins.cretacean/brachiosaurus/stomp.description": "When you are on ground, you are able to Stomp and cause other entities nearby to flung in the air and take some damage.",
     "power.notenoughorigins.cretacean/brachiosaurus/eat.name": "Green Nourishment",
     "power.notenoughorigins.cretacean/brachiosaurus/eat.description": "You use your long necks to reach the leaves on the top of trees to give you nutrients.",
+    "power.notenoughorigins.cretacean/brachiosaurus/neck.name": "Long-Necked Creature",
+    "power.notenoughorigins.cretacean/brachiosaurus/neck.description": "You have long necks, giving you more attacking reach and block reach.",
     "power.notenoughorigins.cretacean/brachiosaurus/spawn.name": "Forest Habitation",
     "power.notenoughorigins.cretacean/brachiosaurus/spawn.description": "You spawn in a Pine Tree Forest, you live here because of the wonderful nature and the food it provides you.",
     "power.notenoughorigins.cretacean/brachiosaurus/quadruped.name": "Quadruped Species",

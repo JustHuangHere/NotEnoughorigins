@@ -61,8 +61,7 @@
 		]
 	},
 	"key": {
-		"key": "key.use",
-		"continuous": true
+		"key": "key.use"
 	},
 	"badges": [{
 	"sprite": "notenoughorigins:textures/gui/orange.png",
