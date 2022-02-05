@@ -1,0 +1,13 @@
+{
+	"type": "origins:attribute",
+	"modifier": {
+		"name": "Less Hearts",
+		"attribute": "minecraft:generic.max_health",
+		"value": -4.0,
+		"operation": "addition"
+	},
+	"badges": [{
+		"sprite": "notenoughorigins:textures/gui/negative.png",
+		"text": "You have less hearts and take more damage from hostile mobs!"
+	}]
+}

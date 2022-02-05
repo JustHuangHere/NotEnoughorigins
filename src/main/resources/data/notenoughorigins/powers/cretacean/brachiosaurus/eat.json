@@ -17,7 +17,7 @@
 			},
 			{
 				"type": "origins:raycast",
-				"distance": 5,
+				"distance": 6,
 				"block": true,
 				"entity": false,
 				"shape_type": "outline",

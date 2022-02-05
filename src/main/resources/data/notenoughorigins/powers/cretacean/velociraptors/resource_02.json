@@ -1,0 +1,16 @@
+{
+	"type": "origins:resource",
+	"hidden": true,
+	"start_value": 1,
+	"min": 0,
+	"max": 1,
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "notenoughorigins:textures/gui/resource_bar_01.png",
+		"bar_index": 17,
+		"condition": {
+			"type": "origins:power_active",
+			"power": "notenoughorigins:cretacean/velociraptors/toggle"
+		}
+	}
+}

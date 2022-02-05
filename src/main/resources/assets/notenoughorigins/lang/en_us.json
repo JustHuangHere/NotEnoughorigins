@@ -62,6 +62,20 @@
     "power.notenoughorigins.cretacean/brachiosaurus/meat.name": "Herbivorous Diet",
     "power.notenoughorigins.cretacean/brachiosaurus/meat.description": "You are a herbivore eating leaves and some vegetables, when eating meat you will react weirdly to it.",
 
+    "power.notenoughorigins.cretacean/velociraptors/resource.name": "Speedy Theropod",
+    "power.notenoughorigins.cretacean/velociraptors/resource.description": "When you sprint/run for a long time, you will run faster. Your bar will start raising and the higher it is, the faster you go",
+    "power.notenoughorigins.cretacean/velociraptors/sense.name": "Prey Hunter",
+    "power.notenoughorigins.cretacean/velociraptors/sense.description": "You are able to hunt on your prey and know where they are. You have the ability to camouflage and sense where they are by sneaking.",
+    "power.notenoughorigins.cretacean/velociraptors/meat.name": "Predator",
+    "power.notenoughorigins.cretacean/velociraptors/meat.description": "As a predator, you hunt your prey and you feast on them. All kinds of meat gives you more saturation and food points.",
+    "power.notenoughorigins.cretacean/velociraptors/carnivore.name": "Carnivore Diet",
+    "power.notenoughorigins.cretacean/velociraptors/carnivore.description": "You are a carnivore eating and feasting on your prey, when eating vegetables you will react weirdly to it.",
+    "power.notenoughorigins.cretacean/velociraptors/hands.name": "Curved-Claw Species",
+    "power.notenoughorigins.cretacean/velociraptors/hands.description": "Your curved claw hand structures make it so that you are unable to hold specific items. (projectiles, spyglass, rod, etc)",
+    "power.notenoughorigins.cretacean/velociraptors/body.name": "Diminutive Structure",
+        "power.notenoughorigins.cretacean/velociraptors/body.description": "Being a small creature, you take more damage from your predators and you have less hearts.",
+
+
 	"item.notenoughorigins.dino_nuggets": "Dino Nuggets",
 	"item.notenoughorigins.enchanted_golden_dino_nugget": "Enchanted Golden Dino Nugget",
 	"item.notenoughorigins.cubone_skull": "Cubone Skull",

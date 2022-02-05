@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "values": [
+    "minecraft:sweet_berries",
+    "minecraft:beetroot_soup",
+    "minecraft:rabbit_stew",
+    "minecraft:apple",
+    "minecraft:mushroom_stew",
+    "minecraft:bread",
+	"minecraft:cookie",
+	"minecraft:melon_slice",
+	"minecraft:carrot",
+	"minecraft:potato",
+	"minecraft:baked_potato",
+	"minecraft:pumpkin_pie",
+	"notenoughorigins:pine_nuts",
+	"notenoughorigins:pine_nut_soup"
+    ]
+}

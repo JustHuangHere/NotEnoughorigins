@@ -1,0 +1,18 @@
+{
+	"type": "origins:modify_food",
+	"hidden": true,
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"tag": "notenoughorigins:vegetables"
+		}
+	},
+	"food_modifier": {
+		"operation": "addition",
+		"value": -0.75
+	},
+	"saturation_modifier": {
+		"operation": "addition",
+		"value": -0.75
+	}
+}

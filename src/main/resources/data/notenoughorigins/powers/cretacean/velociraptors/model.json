@@ -1,0 +1,19 @@
+{
+	"type": "origins:model_color",
+	"hidden": true,
+	"red": 0.23921568627,
+	"green": 0.19215686274,
+	"blue": 0.05882352941,
+	"alpha": 0.4,
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:sneaking"
+			},
+			{
+				"type": "origins:power_active",
+				"power": "notenoughorigins:cretacean/velociraptors/toggle"
+			}
+		]
+	}
+}

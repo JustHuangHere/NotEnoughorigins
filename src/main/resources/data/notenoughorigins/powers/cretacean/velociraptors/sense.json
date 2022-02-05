@@ -1,0 +1,34 @@
+ {
+ 	"type": "origins:entity_glow",
+ 	"condition": {
+ 		"type": "origins:and",
+ 		"conditions": [{
+ 				"type": "origins:power_active",
+ 				"power": "notenoughorigins:cretacean/velociraptors/toggle"
+ 			},
+ 			{
+ 				"type": "origins:sneaking"
+ 			}
+ 		]
+ 	},
+ 	"bientity_condition": {
+ 		"type": "origins:and",
+ 		"conditions": [{
+ 				"type": "origins:can_see"
+ 			},
+ 			{
+ 				"type": "origins:distance",
+ 				"comparison": "<=",
+ 				"compare_to": 10
+ 			}
+ 		]
+ 	},
+ 	"use_teams": false,
+ 	"red": 1.0,
+ 	"green": 0,
+ 	"blue": 0,
+ 	"badges": [{
+ 		"sprite": "notenoughorigins:textures/gui/positive.png",
+ 		"text": "Entity Glow and camouflage by sneaking when your toggle is on."
+ 	}]
+ }

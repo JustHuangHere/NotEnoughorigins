@@ -1,0 +1,13 @@
+{
+	"type": "origins:action_over_time",
+	"hidden": true,
+	"entity_action": {
+		"type": "origins:change_resource",
+		"resource": "notenoughorigins:cretacean/velociraptors/resource",
+		"change": 1
+	},
+	"interval": 20,
+	"condition": {
+		"type": "origins:sprinting"
+	}
+}
