@@ -1,0 +1,86 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+				"command": "function notenoughorigins:sounds5"
+			},
+			{
+				"type": "origins:swing_hand",
+				"hand": "MAIN_HAND"
+			},
+			{
+				"type": "origins:feed",
+				"food": 5,
+				"saturation": 0.8
+			},
+			{
+				"type": "origins:raycast",
+				"distance": 5,
+				"block": true,
+				"entity": false,
+				"shape_type": "outline",
+				"fluid_handling": "none",
+				"block_action": {
+					"type": "origins:if_else",
+					"condition": {
+						"type": "origins:in_tag",
+						"tag": "notenoughorigins:food"
+					},
+					"if_action": {
+						"type": "origins:set_block",
+						"block": "minecraft:air"
+					},
+					"else_action": {
+						"type": "origins:execute_command",
+						"command": "tellraw @s {\"text\":\"right click a leave instead\",\"color\":\"green\"}"
+					}
+				}
+			}
+		]
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:food_level",
+				"inverted": true,
+				"comparison": "==",
+				"compare_to": 20
+			},
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:air"
+					}
+				}
+			},
+			{
+				"type": "origins:raycast",
+				"distance": 5,
+				"block": true,
+				"entity": false,
+				"shape_type": "outline",
+				"fluid_handling": "none",
+				"block_condition": {
+					"type": "origins:in_tag",
+					"tag": "notenoughorigins:food"
+				}
+			}
+		]
+	},
+	"cooldown": 5,
+	"hud_render": {
+		"should_render": false
+	},
+	"key": {
+		"key": "key.use"
+	},
+	"badges": [{
+		"sprite": "notenoughorigins:textures/gui/positive.png",
+		"text": "You can right click leaves to eat them if your hunger bar is not full"
+	}]
+}

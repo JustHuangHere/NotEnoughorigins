@@ -1,0 +1,10 @@
+{
+	"type": "origins:attribute",
+	"hidden": true,
+	"modifier": {
+		"name": "Slow Movement",
+		"attribute": "minecraft:generic.movement_speed",
+		"value": -0.035,
+		"operation": "addition"
+	}
+}

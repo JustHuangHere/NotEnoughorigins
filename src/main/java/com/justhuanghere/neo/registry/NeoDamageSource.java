@@ -9,5 +9,8 @@ public class NeoDamageSource {
 
     public static final DamageSource STOMPED = ((DamageSource) ((DamageSourceAccessor)DamageSourceAccessor.
             createDamageSource("stomped")));
+
+    public static final DamageSource DIET =((DamageSource)
+            ((DamageSourceAccessor)DamageSourceAccessor.createDamageSource("diet")).callSetBypassesArmor());
 }
 

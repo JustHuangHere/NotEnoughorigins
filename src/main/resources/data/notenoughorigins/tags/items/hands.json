@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:spyglass",
+    "minecraft:bow",
+    "minecraft:crossbow",
+    "minecraft:shield",
+    "minecraft:fishing_rod",
+    "minecraft:trident"
+  ]
+}

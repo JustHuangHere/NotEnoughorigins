@@ -1,0 +1,10 @@
+{
+	"type": "origins:attribute",
+	"hidden": true,
+	"modifier": {
+		"name": "no kb",
+		"attribute": "minecraft:generic.knockback_resistance",
+		"value": 1.0,
+		"operation": "addition"
+	}
+}

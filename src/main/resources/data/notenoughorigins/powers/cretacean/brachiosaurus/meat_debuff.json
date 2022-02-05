@@ -1,0 +1,27 @@
+{
+  "type": "origins:action_on_item_use",
+  "hidden": true,
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [{
+      "type": "origins:damage",
+      "amount": 2,
+      "source": {
+        "name": "diet",
+        "bypasses_armor": true
+      }
+    },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:nausea",
+          "duration": 200,
+          "amplifier": 0
+        }
+      }
+    ]
+  },
+  "item_condition": {
+    "type": "origins:meat"
+  }
+}

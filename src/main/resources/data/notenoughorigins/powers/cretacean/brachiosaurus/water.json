@@ -1,0 +1,18 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:add_velocity",
+		"y": 0.1
+	},
+	"interval": 1,
+	"condition": {
+		"type": "origins:fluid_height",
+		"fluid": "minecraft:water",
+		"comparison": ">=",
+		"compare_to": 0.4
+	},
+	"badges": [{
+		"sprite": "notenoughorigins:textures/gui/negative.png",
+		"text": "You can't swim, but you will always float on water"
+	}]
+}

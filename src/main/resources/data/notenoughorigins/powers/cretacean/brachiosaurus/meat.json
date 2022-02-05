@@ -1,0 +1,18 @@
+{
+	"type": "origins:modify_food",
+	"item_condition": {
+		"type": "origins:meat"
+	},
+	"food_modifier": {
+		"operation": "addition",
+		"value": -0.75
+	},
+	"saturation_modifier": {
+		"operation": "addition",
+		"value": -0.75
+	},
+	"badges": [{
+		"sprite": "notenoughorigins:textures/gui/negative.png",
+		"text": "Don't eat meat!"
+	}]
+}

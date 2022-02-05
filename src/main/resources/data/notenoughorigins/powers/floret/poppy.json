@@ -37,8 +37,7 @@
     ]
   },
   "key": {
-    "key": "key.origins.secondary_active",
-    "continuous": true
+    "key": "key.origins.secondary_active"
   },
   "badges": [
     {

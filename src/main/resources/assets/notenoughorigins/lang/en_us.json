@@ -47,6 +47,14 @@
 
     "power.notenoughorigins.cretacean/brachiosaurus/stomp.name": "Catastrophic Stomp",
     "power.notenoughorigins.cretacean/brachiosaurus/stomp.description": "When you are on ground, you are able to Stomp and cause other entities nearby to flung in the air and take some damage.",
+    "power.notenoughorigins.cretacean/brachiosaurus/eat.name": "Green Nourishment",
+    "power.notenoughorigins.cretacean/brachiosaurus/eat.description": "You use your long necks to reach the leaves on the top of trees to give you nutrients.",
+    "power.notenoughorigins.cretacean/brachiosaurus/quadruped.name": "Quadruped Species",
+    "power.notenoughorigins.cretacean/brachiosaurus/quadruped.description": "You're a four legged animal, making you unable to use specific items. (projectiles, spyglass, rod, etc)",
+    "power.notenoughorigins.cretacean/brachiosaurus/water.name": "Ponderous Sauropod",
+    "power.notenoughorigins.cretacean/brachiosaurus/water.description": "You are very heavy making you walk slower and making you unable to swim but you will always float on water.",
+    "power.notenoughorigins.cretacean/brachiosaurus/meat.name": "Herbivorous Diet",
+    "power.notenoughorigins.cretacean/brachiosaurus/meat.description": "You are a herbivore eating leaves and some vegetables, when eating meat you will react weirdly to it.",
 
 	"item.notenoughorigins.dino_nuggets": "Dino Nuggets",
 	"item.notenoughorigins.enchanted_golden_dino_nugget": "Enchanted Golden Dino Nugget",
@@ -89,5 +97,6 @@
 
 	"effect.notenoughorigins.blight": "Blighted",
 	"death.attack.blightdamage": "%1$s was infected with blight",
-	"death.attack.stomped": "%1$s took a heavy impact from the stomp"
+	"death.attack.stomped": "%1$s took a heavy impact from the stomp",
+	"death.attack.diet": "%1$s ate the wrong food"
 }

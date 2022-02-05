@@ -1,6 +1,13 @@
 {
   "powers": [
-  "notenoughorigins:cretacean/brachiosaurus/stomp"
+  "notenoughorigins:cretacean/brachiosaurus/stomp",
+  "notenoughorigins:cretacean/brachiosaurus/eat",
+  "notenoughorigins:cretacean/brachiosaurus/quadruped",
+  "notenoughorigins:cretacean/brachiosaurus/water",
+  "notenoughorigins:cretacean/brachiosaurus/movement",
+  "notenoughorigins:cretacean/brachiosaurus/knockback",
+  "notenoughorigins:cretacean/brachiosaurus/meat",
+  "notenoughorigins:cretacean/brachiosaurus/meat_debuff"
   ],
   "icon": "notenoughorigins:pine_leaves",
   "order": 20,
