@@ -36,7 +36,10 @@
     "notenoughorigins:cronus/blocks",
     "notenoughorigins:cronus/flight",
     "notenoughorigins:cronus/vision",
-    "notenoughorigins:cronus/end"
+    "notenoughorigins:cronus/end",
+    "notenoughorigins:cronus/debuff",
+    "notenoughorigins:cronus/debuff_02",
+    "notenoughorigins:cronus/debuff_03"
   ],
   "icon": "notenoughorigins:cronus_icon",
   "order": 20,

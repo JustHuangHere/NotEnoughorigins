@@ -1,0 +1,16 @@
+{
+	"type": "origins:conditioned_attribute",
+	"hidden": true,
+	"modifier": {
+		"attribute": "minecraft:generic.movement_speed",
+		"operation": "addition",
+		"value": -0.025,
+		"name": "Less Speed"
+	},
+	"tick_rate": 5,
+	"block_condition": {
+		"type": "origins:height",
+		"comparison": "<",
+		"compare_to": 90
+	}
+}

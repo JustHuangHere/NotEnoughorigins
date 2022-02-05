@@ -1,20 +1,25 @@
 {
-  "type": "origins:resource",
-  "min": 0,
-  "max": 6000,
-  "hud_render": {
-    "should_render": true,
-    "sprite_location": "notenoughorigins:textures/gui/resource_bar_01.png",
-    "bar_index": 14,
-    "condition": {
-      "type": "origins:resource",
-      "resource": "notenoughorigins:cronus/resource_02",
-      "comparison": "==",
-      "compare_to": 1
-    }
-  },
-  "badges": [{
-    "sprite": "notenoughorigins:textures/gui/ghost.png",
-    "text": "You are in §8Astral Watcher§r form!"
-  }]
+	"type": "origins:resource",
+	"min": 0,
+	"max": 6000,
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "notenoughorigins:textures/gui/resource_bar_01.png",
+		"bar_index": 14,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "notenoughorigins:cronus/resource_02",
+			"comparison": "==",
+			"compare_to": 1
+		}
+	},
+	"badges": [{
+			"sprite": "notenoughorigins:textures/gui/ghost.png",
+			"text": "You are in §8Astral Watcher§r form!"
+		},
+		{
+			"sprite": "notenoughorigins:textures/gui/orange.png",
+			"text": ""
+		}
+	]
 }

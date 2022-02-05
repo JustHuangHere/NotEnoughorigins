@@ -1,0 +1,19 @@
+{
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.attack_speed",
+		"operation": "multiply_base",
+		"value": -2.0,
+		"name": "Less Attack Speed"
+	},
+	"tick_rate": 20,
+	"block_condition": {
+		"type": "origins:height",
+		"comparison": "<",
+		"compare_to": 90
+	},
+	"badges": [{
+		"sprite": "notenoughorigins:textures/gui/negative.png",
+		"text": "You get slower and less hearts and more."
+	}]
+}

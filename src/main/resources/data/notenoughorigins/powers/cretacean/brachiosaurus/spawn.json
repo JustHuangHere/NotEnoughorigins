@@ -1,0 +1,15 @@
+{
+	"type": "origins:modify_player_spawn",
+	"dimension": "minecraft:overworld",
+	"biome": "minecraft:old_growth_pine_taiga",
+	"spawn_strategy": "center",
+	"badges": [{
+			"sprite": "notenoughorigins:textures/gui/forest.png",
+			"text": "You spawn in a Pine Tree forest"
+		},
+		{
+			"sprite": "notenoughorigins:textures/gui/orange.png",
+			"text": ""
+		}
+	]
+}
