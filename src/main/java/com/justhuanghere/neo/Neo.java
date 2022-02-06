@@ -6,7 +6,6 @@ import com.justhuanghere.neo.world.gen.NeoOreGeneration;
 import com.justhuanghere.neo.world.gen.NeoWorldGen;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.sound.SoundEvent;
