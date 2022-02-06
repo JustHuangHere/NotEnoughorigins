@@ -1,0 +1,28 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:gain_air",
+		"value": 20
+	},
+	"interval": 1,
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:submerged_in",
+				"inverted": true,
+				"fluid": "minecraft:water"
+			},
+			{
+
+				"type": "origins:equipped_item",
+				"equipment_slot": "head",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "notenoughorigins:cubone_skull"
+					}
+				}
+			}
+		]
+	}
+}

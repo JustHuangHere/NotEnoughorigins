@@ -1,0 +1,7 @@
+{
+	"type": "origins:modify_player_spawn",
+	"hidden": true,
+	"dimension": "minecraft:overworld",
+	"biome": "minecraft:cold_ocean",
+	"spawn_strategy": "default"
+}

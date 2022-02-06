@@ -1,0 +1,22 @@
+{
+	"type": "origins:modify_food",
+	"item_condition": {
+		"type": "origins:ingredient",
+        		"ingredient": {
+        			"tag": "minecraft:fishes"
+	},
+	"food_modifier": {
+		"name": "Increased food points",
+		"operation": "addition",
+		"value": 1.5
+	},
+	"saturation_modifier": {
+		"name": "Increased saturation points",
+		"operation": "addition",
+		"value": 0.5
+	},
+	"badges": [{
+		"sprite": "notenoughorigins:textures/gui/positive.png",
+		"text": "Fishes gives more food points and saturation!"
+	}]
+}

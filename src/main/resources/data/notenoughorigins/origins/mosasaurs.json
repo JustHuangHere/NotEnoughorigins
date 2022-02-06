@@ -1,5 +1,19 @@
 {
   "powers": [
+  "notenoughorigins:cretacean/mosasaurs/ram",
+  "notenoughorigins:cretacean/mosasaurs/swim",
+  "notenoughorigins:cretacean/mosasaurs/night_vision",
+  "notenoughorigins:cretacean/mosasaurs/exhaustion",
+  "notenoughorigins:cretacean/mosasaurs/aqua_affinity",
+  "origins:water_breathing",
+  "origins:conduit_power_on_land",
+  "origins:air_from_potions",
+  "origins:aquatic",
+  "notenoughorigins:cretacean/mosasaurs/carnivore",
+  "notenoughorigins:cretacean/mosasaurs/cold",
+  "notenoughorigins:cretacean/mosasaurs/freeze",
+  "notenoughorigins:cretacean/mosasaurs/spawn",
+  "notenoughorigins:cretacean/mosasaurs/hidden"
   ],
   "icon": "minecraft:prismarine_shard",
   "order": 20,

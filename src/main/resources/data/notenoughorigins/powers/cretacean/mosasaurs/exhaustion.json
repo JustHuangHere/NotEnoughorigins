@@ -1,0 +1,12 @@
+{
+	"type": "origins:action_over_time",
+	"hidden": true,
+	"entity_action": {
+		"type": "origins:exhaust",
+		"amount": 0.2
+	},
+	"interval": 100,
+	"condition": {
+		"type": "origins:swimming"
+	}
+}

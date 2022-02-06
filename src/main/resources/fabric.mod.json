@@ -9,7 +9,9 @@
     "SaturnDevoid"
   ],
   "contact": {
-    "sources": "https://github.com/JustHuangHere/NotEnoughorigins"
+    "homepage": "",
+    "sources": "https://github.com/JustHuangHere/NotEnoughorigins",
+    "issues": "https://github.com/JustHuangHere/NotEnoughorigins/issues"
   },
   "license": "MIT",
   "icon": "assets/neo/icon.png",

@@ -1,0 +1,24 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 2,
+	"duration_per_stack": 40,
+	"effect": {
+		"effect": "minecraft:slowness",
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": true
+	},
+	"condition": {
+		"type": "origins:biome",
+		"condition": {
+			"type": "origins:temperature",
+			"comparison": "<",
+			"compare_to": 0.2
+		}
+	},
+	"badges": [{
+		"sprite": "notenoughorigins:textures/gui/negative.png",
+		"text": "Don't go to Freezing Oceans!"
+	}]
+}

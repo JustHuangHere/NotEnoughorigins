@@ -1,0 +1,7 @@
+{
+	"type": "origins:simple",
+	"badges": [{
+		"sprite": "notenoughorigins:textures/gui/orange.png",
+		"text": ""
+	}]
+}

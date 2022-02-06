@@ -1,0 +1,11 @@
+{
+	"type": "origins:modify_swim_speed",
+	"modifier": {
+		"operation": "multiply_base",
+		"value": 1.5
+	},
+	"badges": [{
+		"sprite": "notenoughorigins:textures/gui/positive.png",
+		"text": "You can dash and do damage to enemies in front of you"
+	}]
+}

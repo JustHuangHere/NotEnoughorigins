@@ -1,0 +1,17 @@
+{
+	"type": "origins:damage_over_time",
+	"hidden": true,
+	"interval": 100,
+	"damage": 1,
+	"damage_source": {
+		"name": "freeze"
+	},
+	"condition": {
+		"type": "origins:biome",
+		"condition": {
+			"type": "origins:temperature",
+			"comparison": "<",
+			"compare_to": 0.2
+		}
+	}
+}

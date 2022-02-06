@@ -12,5 +12,7 @@ public class NeoDamageSource {
 
     public static final DamageSource DIET =((DamageSource)
             ((DamageSourceAccessor)DamageSourceAccessor.createDamageSource("diet")).callSetBypassesArmor());
+
+    public static final DamageSource RAM = ((DamageSource) ((DamageSourceAccessor)DamageSourceAccessor.createDamageSource("ram")));
 }
 

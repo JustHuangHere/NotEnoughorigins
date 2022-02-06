@@ -73,8 +73,20 @@
     "power.notenoughorigins.cretacean/velociraptors/hands.name": "Curved-Claw Species",
     "power.notenoughorigins.cretacean/velociraptors/hands.description": "Your curved claw hand structures make it so that you are unable to hold specific items. (projectiles, spyglass, rod, etc)",
     "power.notenoughorigins.cretacean/velociraptors/body.name": "Diminutive Structure",
-        "power.notenoughorigins.cretacean/velociraptors/body.description": "Being a small creature, you take more damage from your predators and you have less hearts.",
+    "power.notenoughorigins.cretacean/velociraptors/body.description": "Being a small creature, you take more damage from your predators and you have less hearts.",
 
+    "power.notenoughorigins.cretacean/mosasaurs/ram.name": "Predator of The Seas",
+    "power.notenoughorigins.cretacean/mosasaurs/ram.description": "You hunt small fishes and other small preys underwater. You are able to dash forward and damage the entity you dashed to.",
+    "power.notenoughorigins.cretacean/mosasaurs/swim.name": "Aquatic Inhabitant",
+    "power.notenoughorigins.cretacean/mosasaurs/swim.description": "Living in the aquatic ecosystem, you have adapted to your environment. You swim faster and have better sight underwater but swimming also exhausts you now.",
+    "power.notenoughorigins.cretacean/mosasaurs/fish.name": "Fishy Taste",
+    "power.notenoughorigins.cretacean/mosasaurs/fish.description": "Since you hunt all smaller preys such as fishes in the sea, your digestion has improved and fishes gives you more saturation and hunger points.",
+    "power.notenoughorigins.cretacean/mosasaurs/cold.name": "Warm-Blooded",
+    "power.notenoughorigins.cretacean/mosasaurs/cold.description": "Since you are a warm-blooded reptilian, you get slower and take some damage when you enter the freezing ocean biome.",
+    "power.notenoughorigins.cretacean/mosasaurs/carnivore.name": "Carnivore Diet",
+    "power.notenoughorigins.cretacean/mosasaurs/carnivore.description": "You are a carnivore eating and feasting on your prey, when eating vegetables you will react weirdly to it.",
+    "power.notenoughorigins.cretacean/mosasaurs/hidden.name": "Hidden Power",
+    "power.notenoughorigins.cretacean/mosasaurs/hidden.description": "Find out the mystery hidden power!",
 
 	"item.notenoughorigins.dino_nuggets": "Dino Nuggets",
 	"item.notenoughorigins.enchanted_golden_dino_nugget": "Enchanted Golden Dino Nugget",
@@ -118,5 +130,6 @@
 	"effect.notenoughorigins.blight": "Blighted",
 	"death.attack.blightdamage": "%1$s was infected with blight",
 	"death.attack.stomped": "%1$s took a heavy impact from the stomp",
-	"death.attack.diet": "%1$s ate the wrong food"
+	"death.attack.diet": "%1$s ate the wrong food",
+	"death.attack.ram": "%1$s was rammed and tore apart by %2$s"
 }
