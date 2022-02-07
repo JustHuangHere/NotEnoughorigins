@@ -2,7 +2,7 @@
 	"type": "origins:conditioned_attribute",
 	"hidden": true,
 	"modifier": {
-		"attribute": "minecraft:generic.movement_speed",
+		"attribute": "minecraft:generic.max_health",
 		"operation": "addition",
 		"value": -6.0,
 		"name": "Less Health"
