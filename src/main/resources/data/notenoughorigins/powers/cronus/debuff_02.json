@@ -4,7 +4,7 @@
 	"modifier": {
 		"attribute": "minecraft:generic.movement_speed",
 		"operation": "addition",
-		"value": -0.025,
+		"value": -0.0025,
 		"name": "Less Speed"
 	},
 	"tick_rate": 5,
