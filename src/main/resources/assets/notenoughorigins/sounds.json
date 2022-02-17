@@ -1,8 +1,8 @@
 {
-  "item.armor.equip_iridium": {
-    "sounds": [
-      "minecraft:item/armor/equip_iron6",
-      "minecraft:item/armor/equip_netherite2"
-    ]
-  }
+	"item.armor.equip_iridium": {
+		"sounds": [
+			"minecraft:item/armor/equip_iron6",
+			"minecraft:item/armor/equip_netherite2"
+		]
+	}
 }
