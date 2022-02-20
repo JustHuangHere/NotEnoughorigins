@@ -20,8 +20,11 @@
   "entrypoints": {
     "main": [
       "com.justhuanghere.neo.Neo"
-    ]
-  },
+     ],
+       "client": [
+         "com.justhuanghere.neo.NeoClient"
+       ]
+     },
   "mixins": [
     "neo.mixins.json"
   ],
