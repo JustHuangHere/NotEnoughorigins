@@ -74,16 +74,16 @@ public class NeoItems {
             new FabricItemSettings().group(ItemGroup.TOOLS).fireproof());
 
     public static final Item IRIDIUM_HELMET = new ArmorItem(NeoArmorMaterial.IRIDIUM, EquipmentSlot.HEAD,
-            new FabricItemSettings().group(ItemGroup.COMBAT));
+            new FabricItemSettings().group(ItemGroup.COMBAT).fireproof());
 
     public static final Item IRIDIUM_CHESTPLATE = new ArmorItem(NeoArmorMaterial.IRIDIUM, EquipmentSlot.CHEST,
-            new FabricItemSettings().group(ItemGroup.COMBAT));
+            new FabricItemSettings().group(ItemGroup.COMBAT).fireproof());
 
     public static final Item IRIDIUM_LEGGINGS = new ArmorItem(NeoArmorMaterial.IRIDIUM, EquipmentSlot.LEGS,
-            new FabricItemSettings().group(ItemGroup.COMBAT));
+            new FabricItemSettings().group(ItemGroup.COMBAT).fireproof());
 
     public static final Item IRIDIUM_BOOTS = new ArmorItem(NeoArmorMaterial.IRIDIUM, EquipmentSlot.FEET,
-            new FabricItemSettings().group(ItemGroup.COMBAT));
+            new FabricItemSettings().group(ItemGroup.COMBAT).fireproof());
 
     public static final Item PINE_BOAT = new BoatItem(CustomBoatType.PINE, new Item.Settings().maxCount(1).group(ItemGroup.TRANSPORTATION));
 

@@ -5,7 +5,6 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.FoodComponent;
 
 public class NeoFoodComponent {
-    public static final FoodComponent LATTE;
     public static final FoodComponent DINO_NUGGETS;
     public static final FoodComponent PINE_NUT;
     public static final FoodComponent PINE_NUT_SOUP;
@@ -20,9 +19,6 @@ public class NeoFoodComponent {
     }
 
     static {
-        LATTE = (new FoodComponent.Builder()).hunger(6).saturationModifier(0.1F).statusEffect
-                (new StatusEffectInstance(StatusEffects.SPEED, 600, 0), 1.0F).build();
-
         DINO_NUGGETS = (new FoodComponent.Builder().hunger(3).saturationModifier(0.3F).meat().build());
 
         ENCHANTED_GOLDEN_DINO_NUGGET = (new FoodComponent.Builder()).hunger(4).saturationModifier(1.2F)
