@@ -1,0 +1,20 @@
+{
+	"type": "origins:action_on_callback",
+	"entity_action_added": {
+		"type": "origins:execute_command",
+		"command": "scale set pehkui:base 1.3 @s"
+	},
+	"entity_action_respawn": {
+		"type": "origins:execute_command",
+		"command": "scale set pehkui:base 1.3 @s"
+	},
+	"entity_action_lost": {
+		"type": "origins:execute_command",
+		"command": "scale reset pehkui:base @s"
+	},
+	"execute_chosen_when_orb": true,
+	"badges": [{
+		"sprite": "notenoughorigins:textures/gui/orange.png",
+		"text": ""
+	}]
+}

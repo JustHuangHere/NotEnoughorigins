@@ -10,6 +10,6 @@
     "type": "origins:resource",
     "resource": "notenoughorigins:cronus/resource_01",
     "comparison": "==",
-    "compare_to": 6000
+    "compare_to": 300
   }
 }

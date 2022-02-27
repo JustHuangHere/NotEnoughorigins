@@ -40,7 +40,7 @@
 	"hud_render": {
 		"should_render": true,
 		"sprite_location": "notenoughorigins:textures/gui/resource_bar_01.png",
-		"bar_index": 18
+		"bar_index": 19
 	},
 	"badges": [{
 		"sprite": "notenoughorigins:textures/gui/positive.png",

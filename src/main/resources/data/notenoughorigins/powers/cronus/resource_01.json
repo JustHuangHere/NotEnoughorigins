@@ -1,7 +1,7 @@
 {
 	"type": "origins:resource",
 	"min": 0,
-	"max": 6000,
+	"max": 300,
 	"hud_render": {
 		"should_render": true,
 		"sprite_location": "notenoughorigins:textures/gui/resource_bar_01.png",
