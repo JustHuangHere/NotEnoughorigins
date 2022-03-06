@@ -8,7 +8,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum NeoToolMaterial implements ToolMaterial {
-    IRIDIUM(4, 1879, 8.5F, 3.5F, 14, () -> {
+    IRIDIUM(4, 2031, 9.0F, 4.0F, 15, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{NeoItems.IRIDIUM});
     });
 

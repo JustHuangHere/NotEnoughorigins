@@ -12,7 +12,7 @@ import net.minecraft.util.registry.Registry;
 
 public class NeoItems {
 
-    public static final Item DINO_NUGGETS = new Item(new FabricItemSettings().maxCount(16).group(ItemGroup.FOOD)
+    public static final Item DINO_NUGGETS = new Item(new FabricItemSettings().maxCount(64).group(ItemGroup.FOOD)
             .food(NeoFoodComponent.DINO_NUGGETS));
 
     public static final Item CUBONE_SKULL = new Item(new FabricItemSettings().maxCount(1).group(ItemGroup.MISC).equipmentSlot(stack -> EquipmentSlot.HEAD));
@@ -89,6 +89,8 @@ public class NeoItems {
 
     public static final Item CRONUS_ICON = new Item(new FabricItemSettings().maxCount(1).group(ItemGroup.MISC));
 
+    public static final Item THERION_CLAW = new Item(new FabricItemSettings().maxCount(1).group(ItemGroup.MISC));
+
     public static final Item PINE_NUT_SOUP = new StewItem(new FabricItemSettings().group(ItemGroup.FOOD).maxCount(1).food(NeoFoodComponent.PINE_NUT_SOUP));
 
     public static final Item ENCHANTED_GOLDEN_DINO_NUGGET = new EnchantedGoldenDinoNugget(new FabricItemSettings().group(ItemGroup.FOOD)
@@ -137,6 +139,7 @@ public class NeoItems {
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "dino_nuggets"), DINO_NUGGETS);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "enchanted_golden_dino_nugget"), ENCHANTED_GOLDEN_DINO_NUGGET);
         Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "cronus_icon"), CRONUS_ICON);
+        Registry.register(Registry.ITEM, new Identifier(Neo.notenoughorigins, "therion_claw"), THERION_CLAW);
     }
 }
 

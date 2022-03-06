@@ -1,0 +1,79 @@
+{
+	"type": "origins:action_on_block_break",
+	"entity_action": {
+		"type": "origins:choice",
+		"actions": [{
+				"element": {
+					"type": "origins:execute_command",
+					"command": "execute at @s run summon item ~ ~ ~ {Item:{id:\"minecraft:bonemeal\",Count:1b}}"
+				},
+				"weight": 25
+			},
+			{
+				"element": {
+					"type": "origins:execute_command",
+					"command": "execute at @s run summon item ~ ~ ~ {Item:{id:\"minecraft:emerald\",Count:1b}}"
+				},
+				"weight": 5
+			},
+			{
+				"element": {
+					"type": "origins:execute_command",
+					"command": "execute at @s run summon item ~ ~ ~ {Item:{id:\"minecraft:bone\",Count:1b}}"
+				},
+				"weight": 25
+			},
+			{
+				"element": {
+					"type": "origins:execute_command",
+					"command": "execute at @s run summon item ~ ~ ~ {Item:{id:\"minecraft:diamond\",Count:1b}}"
+				},
+				"weight": 1
+			},
+			{
+				"element": {
+					"type": "origins:execute_command",
+					"command": "execute at @s run summon item ~ ~ ~ {Item:{id:\"minecraft:gold\",Count:1b}}"
+				},
+				"weight": 5
+			},
+			{
+				"element": {
+					"type": "origins:execute_command",
+					"command": "execute at @s run summon item ~ ~ ~ {Item:{id:\"minecraft:coal\",Count:1b}}"
+				},
+				"weight": 15
+			},
+			{
+				"element": {
+					"type": "origins:execute_command",
+					"command": "execute at @s run summon item ~ ~ ~ {Item:{id:\"minecraft:rotten_flesh\",Count:1b}}"
+				},
+				"weight": 30
+			},
+			{
+				"element": {
+					"type": "origins:execute_command",
+					"command": "execute at @s run summon item ~ ~ ~ {Item:{id:\"notenoughorigins:enchanted_golden_dino_nugget\",Count:1b}}"
+				},
+				"weight": 1
+			},
+			{
+				"element": {
+					"type": "origins:execute_command",
+					"command": "execute at @s run summon item ~ ~ ~ {Item:{id:\"minecraft:totem_of_undying\",Count:1b}}"
+				},
+				"weight": 0.5
+			}
+		]
+	},
+	"block_condition": {
+		"type": "origins:in_tag",
+		"tag": "notenoughorigins:diggable"
+	},
+	"only_when_harvested": false,
+	"badges": [{
+		"sprite": "notenoughorigins:textures/gui/positive.png",
+		"text": "You can get loot from any block that you can mine with the shovel. (dirt, gravel, etc)"
+	}]
+}

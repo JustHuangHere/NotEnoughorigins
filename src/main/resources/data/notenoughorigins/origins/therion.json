@@ -1,8 +1,12 @@
 {
   "powers": [
-    "notenoughorigins:therion/size"
+    "notenoughorigins:therion/dig",
+    "notenoughorigins:therion/climbing",
+    "notenoughorigins:therion/size",
+    "notenoughorigins:therion/claws",
+    "notenoughorigins:therion/meat"
   ],
-  "icon": "minecraft:brown_dye",
+  "icon": "notenoughorigins:therion_claw",
   "order": 20,
   "impact": 3
 }

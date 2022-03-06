@@ -23,9 +23,9 @@ public class NeoFoodComponent {
 
         ENCHANTED_GOLDEN_DINO_NUGGET = (new FoodComponent.Builder()).hunger(4).saturationModifier(1.2F)
                 .statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 400, 0), 1.0F)
-                .statusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 6000, 0), 1.0F)
+                .statusEffect(new StatusEffectInstance(StatusEffects.HERO_OF_THE_VILLAGE, 6000, 0), 1.0F)
                 .statusEffect(new StatusEffectInstance(StatusEffects.HASTE, 6000, 2), 1.0F)
-                .statusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 6000, 0), 1.0F).alwaysEdible().build();
+                .statusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 6000, 0), 1.0F).alwaysEdible().meat().build();
 
         PINE_NUT = (new FoodComponent.Builder()).hunger(2).saturationModifier(0.1F).snack().build();
 

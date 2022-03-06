@@ -11,7 +11,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum NeoArmorMaterial implements ArmorMaterial {
-    IRIDIUM("iridium", 35, new int[]{4, 7, 9, 4}, 13, Neo.ARMOR_EQUIP_IRIDIUM, 2.5F, 0.2F, () -> {
+    IRIDIUM("iridium", 35, new int[]{4, 7, 9, 4}, 13, Neo.ARMOR_EQUIP_IRIDIUM, 4.0F, 0.2F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{NeoItems.IRIDIUM});
     });
 
