@@ -1,0 +1,20 @@
+{
+	"type": "origins:action_over_time",
+	"interval": 10,
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+				"command": "execute at @s as @e[type=villager,distance=..10] run data merge entity @s {Gossips:[{Target:[I;1,1,1,1],Type:'minor_negative',Value:200}]}"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "execute at @s as @e[type=villager,distance=..10] run data modify entity @s Gossips[{Target:[I;1,1,1,1]}].Target set from entity @p UUID"
+			}
+		]
+	},
+	"badges": [{
+		"sprite": "notenoughorigins:textures/gui/negative.png",
+		"text": "Villager trade prices are more pricey"
+	}]
+}

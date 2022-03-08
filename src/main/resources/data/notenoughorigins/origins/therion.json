@@ -4,7 +4,9 @@
     "notenoughorigins:therion/climbing",
     "notenoughorigins:therion/size",
     "notenoughorigins:therion/claws",
-    "notenoughorigins:therion/meat"
+    "notenoughorigins:therion/meat",
+    "notenoughorigins:therion/non_meat",
+    "notenoughorigins:therion/price"
   ],
   "icon": "notenoughorigins:therion_claw",
   "order": 20,

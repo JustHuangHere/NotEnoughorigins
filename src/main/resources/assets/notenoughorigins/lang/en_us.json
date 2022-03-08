@@ -101,6 +101,8 @@
 	"power.notenoughorigins.therion/claws.description": "You were born with peculiar claws allowing you to do a lot of stuff but it comes with a cost of not being able to use some items. (projectiles, spyglass, rod, etc)",
 	"power.notenoughorigins.therion/meat.name": "Herbivore",
 	"power.notenoughorigins.therion/meat.description": "You have a hard time trying to digest meat, forcing you to feel pain trying to digest meat.",
+	"power.notenoughorigins.therion/price.name": "Fortune Seeker",
+	"power.notenoughorigins.therion/price.description": "You are known for your wealthy fortune and Villagers with great greed demands a higher price when you trade with them.",
 
 	"item.notenoughorigins.dino_nuggets": "Dino Nuggets",
 	"item.notenoughorigins.enchanted_golden_dino_nugget": "Enchanted Golden Dino Nugget",
